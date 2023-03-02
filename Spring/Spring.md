@@ -1,0 +1,6 @@
+- resourc server
+- auth server
+- lambda exp
+- what is session based authentications & out ofthe box authenticatoion
+	- url: https://www.toptal.com/spring/spring-security-tutorial
+- does normal filter in spring secuirty keeps sessions
