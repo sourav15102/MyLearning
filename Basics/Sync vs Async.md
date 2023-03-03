@@ -1,0 +1,3 @@
+## Synchronous vs Asynchronous
+- synchronous: is when the respose for a request is expected immidiately, request and response are synchronous with each other, like waiting at a restaurant, where we give order to waiter and wait for the order synchronously(we od nothing but wait) until we get the food.
+- asynchronous: is when the reponse is immidiately expected from a request, request and resposne are not ynchronous with each other, like sending email, we send email do other work and dont expect an immidiate response.
