@@ -5,4 +5,8 @@
 ## JWT
 ## APIs
 ### DTOs
+Serialzing objects byte[]
+
+[[Spring Security]]
+
 

@@ -16,8 +16,8 @@
 http vs rest
 grpc
 
-another apps like http on tcp
-what aps on udp
+another protocols like http on tcp
+what protocols on udp
 
 is tcp ip two way one way
 raw tcp?
