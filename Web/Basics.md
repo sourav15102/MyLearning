@@ -39,8 +39,6 @@
 - A: URI is unique resource identifier, URL is just a subset of URI which uniquely identifies the resource on the internet. another type of URI can be URN, unique resource name.
 - Q: what is payload?
 - A: in the case of a web page, the payload would be the actual HTML, CSS, and JavaScript code that make up the page content. In the case of an email message, the payload would be the actual text of the message, any attachments, and any embedded images or other media.
-- Q: why vm eill losr files?
-- Q: invalidating cache
 
 http vs rest
 grpc
