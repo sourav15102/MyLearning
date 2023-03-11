@@ -1,4 +1,6 @@
-It is a part of [[ Dyanmic Programming ]]
+
+### Prerequisites 
+- [[Dynamic Programming]] 
 
 keep to things in mind: 
 1) when calling the recurse function, if other player wins then you loose and vice-versa, assuming players play optmially. 

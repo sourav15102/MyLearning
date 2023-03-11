@@ -1,7 +1,9 @@
-[[Sync vs Async]]
-[[Load Balancing]]
-[[Consistent Hashing]]
-[[Heart-beat mechanism]]
+### Prerequisites 
+- [[Sync vs Async]]
+- [[Load Balancing]]
+- [[Consistent Hashing]]
+- [[Heart-beat mechanism]]
+- 
 
 ## Messaging queue:
 - if we want to have all of the above functionality in one system, that would be a message queue.
