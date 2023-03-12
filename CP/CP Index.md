@@ -1,16 +1,14 @@
 
 - [[Dynamic Programming]]
 - [[Graph]]
-- [[Math]]
 - [[Modulo]]
-- [[Regex]]
 - [[Sliding Window]]
 - [[Game Playing]]
-- 
+- [[MAP]]
+- [[Two Pointers]]
+- [[Integers]]
 
-
-
-- tricks
-- sheet
-- some questuions of each topic
-- yt video
+- Links
+	- neetcode yt
+	- take u forward
+	- https://neetcode.io/practice

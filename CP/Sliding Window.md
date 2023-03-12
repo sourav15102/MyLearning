@@ -1,16 +1,33 @@
-Link: https://leetcode.com/tag/sliding-window/
 
-### Problems:
-- ### Basic
-	- https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/
-- ### Good
-	- https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/
-		- try to think about when the string be consider a valid string.
-		- in this case, whenever we have atleast one count of each character(a,b,c), will be considered a string.
-		- so, the program will go the following way:
-		- move j unless you have a valid string.
-		- once you have a valid string, start moving i, until you again have an invalid string
-		- HOWEVER, the catch specific to this problem is:
-		- if i-->j is valid string, then i-->(j+1) will be valid automatically, i-->(j+2) will be valid as well.
-	- 
+### Theory:
+
+
+In sliding window, we need to first identify the when the "array" will become "valid" and when is it not.
+We take two pointers in general.
+So, we move the first pointer until our "array" is "valid" and then we start moving the second one until it is again "invalid", it can vice-versa as well, depending upon the questions.
+
+Basic template:
+
+```java
+        while(j<l){
+            if(condition to go on){
+                //operation
+                j++;
+            }else{
+                while(condition to stop){
+                    //oepration
+                    i++;
+                }
+            }
+        }
+```
+        
+
+### Quick Questions:
+1. [[1358]]
+2. [1343](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
+3. [[3]]
+4. [[76]]
+
+### Questions:
 
