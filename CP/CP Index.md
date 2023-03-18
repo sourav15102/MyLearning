@@ -4,9 +4,16 @@
 - [[Modulo]]
 - [[Sliding Window]]
 - [[Game Playing]]
-- [[MAP]]
 - [[Two Pointers]]
-- [[Integers]]
+- [[Helper]]
+- [[Queue]]
+- [[Stack]]
+- [[Binary Search]]
+- [[Trees]]
+- [[Backtracking]]
+- [[Greedy]]
+- [[Bit Manipulation]]
+- [[Union Find]]
 
 - Links
 	- neetcode yt

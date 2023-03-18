@@ -1,5 +1,5 @@
 
 - [[Code Labeller Project]]
 - [[DBMS making Assingment]]
-- [[Maven]]
-- 
+- [[My learnings/Dev/Java/Maven]]
+- [[Stream]]

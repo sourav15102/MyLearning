@@ -1,0 +1,11 @@
+### REST vs HTTP:
+- it is service built on top of HTTP.
+- it uses standard http methods(GET, POST, PUT, DELETE).
+- Rest api hit is an http request, which is specifically designed to interact with web services.
+- Rest APi is concerned with endpoints, which represents a service,a functionality a server can provide.
+- so, http is protocol used to transfer data b/w client and server, but rest is specific type of http request which is used to access a functioanlity of web server.
+- it imposes certain rules in top of http,like:
+	- stateless
+	- responses can be cached.
+	- URIs
+- Rest adds few more contraints on HTTP.
