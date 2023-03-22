@@ -1,0 +1,18 @@
+### Questions:
+- Q: Another protocols like http on tcp?
+- A: FTP, SMTP, DNS, SSH, Telnet
+- Q: Protocols on top of UDP?
+- A: DNS(uses tcp for zone transfer and UDP for name, queries etc), VoIP
+- Q: TCP/UDP bi/uni directional?
+- A: TCP has  bi-directional capabilities and UDP has uni-directional capabilities.
+- Q: DIfference between URI adn URL?
+- A: URI is unique resource identifier, URL is just a subset of URI which uniquely identifies the resource on the internet. another type of URI can be URN, unique resource name.
+- Q: what is payload?
+- A: in the case of a web page, the payload would be the actual HTML, CSS, and JavaScript code that make up the page content. In the case of an email message, the payload would be the actual text of the message, any attachments, and any embedded images or other media.
+- Q: Difference between a framework,plugin and a library?
+- A: Framework: defines a structure to the code, can include some libraries to assist the intended behavior. 
+	- Library: a piece of code, which can be resued to perform some actions.
+	- Plugin: a piece of code that can be extended to the current functionality.
+- Q: Difference between www. and https 
+- A; https://www.facebook.com: it means that the website is accessible via a http server,
+- www. is sundomain of the domain name.
