@@ -1,4 +1,4 @@
 %% Begin Waypoint %%
-- [[Git QnA]]
+- [[Cloud Practioner(CLF-C01)]]
 
 %% End Waypoint %%

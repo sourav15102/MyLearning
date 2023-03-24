@@ -33,14 +33,19 @@
 	- Provides most flexibility.
 	- closest thing we have to on-premis data center.
 	- modify almost all infrastructure to fit needs
-	- aws,google cloud,azure
+	- Amazon EC2 (on AWS)
+	- GCP, Azure, Rackspace, Digital Ocean, Linode
 -  PAAS
 	- allows to deploy apps without worrying about underlying infrastructure
 	- examples: heroku
 	- less flexibility than IAAS.
+	- Elastic Beanstalk (on AWS)
+	- Heroku, Google App Engine (GCP), Windows Azure (Microsoft)
 -  SAAS
 	- entire software ready to use for you
 	- ex: outlook, gmail
+	- Many AWS services (ex: Rekognition for Machine Learning)
+	- Google Apps (Gmail), Dropbox, Zoom
 - 
 
 ### Cloud Deployment models:
@@ -155,7 +160,7 @@ Functions:
 ### Innovation Waves:
 Kondratiev waves, it is a cycle like phenomena in global world economy.
 ### Burning platforms:
-when org abadons old tech to adopt new tech with incertainity of success and can be motivated by fear.
+when org abandons old tech to adopt new tech with uncertainty of success and can be motivated by fear.
 
 ### Computing power
 General computing: EC2 
@@ -164,14 +169,45 @@ Quantum Computing: AWS bracket
 ### AWS Global Infrastructure
 Network of globally distributed hardware and datacenters physically connected together to act as one.
 
-Regions: 
-- geogrpahuically distinct locations, can contain one or more *availabiltiy zones*(generally 3)(some new users are limited to 2).
-- physically isolated and independent from every other regions, in terms of power,water supply, and location.
+**Regions: **
+- geographically distinct locations, can contain one or more *availability zones*(generally 3)(some new users are limited to 2).
+- physically isolated and independent from every other regions, in terms of power, water supply, and location.
 - new services almost always become available at US EAST-1(northern virginia)
 - service costs vary with region.
-- not all services are availabl at all regions.
+- not all services are available at all regions.
 4 things need to be considered while choosing region:
 ![[Pasted image 20230320141723.png]]
+
+**Regional vs global services:**
+AWS Scopes their AWS Management Console on a selected Region.
+This will determine where an AWS service will be launched and what will be seen within an AWS Service's console
+You generally don't explicitly set the Region for service at the time of the creation
+**Global Services**
+Some AWS Services operates across multiple regions and the region will be fixed to "Global"
+E.g. Amazon S3, Cloud Front, Route53, IAM
+
+> for regional services, there is no need to select the region.
+> but, for some of these global services, it is a bit different:
+> 1. like for IAM, it will be global, no need to select region.
+> 2. for S3 bucket, it ahs to be in one region, so need to select a region while starting up, (global means they are available everywhere, but need a region while starting up)
+> 3. for CloudFront: it is like distribution, so need to select a bunch of regions.
+
+**Availability Zones(AZ):**
+- physical location made up of one or more datacenters(a secured building contains hundreds or thousands of computers)
+- Datacenters within a region will be isolate from​ each other (different buildings). But they will​ be _close enough to provide low-latency (< 10ms)_.​
+- All AZs in an AWS Region are interconnected with high-bandwidth, low-latency networking, over fully redundant, dedicated metro fiber providing high-throughput
+- AZs are within 100 km (60 miles) of each other.
+- All traffic between AZs is encrypted
+- The use of AZ’s give customers the ability to operate production applications and databases that are more:
+	-   Highly available
+	-   Fault tolerant
+	-   Scalable
+- Its common practice to run workloads in at least​ 3 AZs to ensure services remain available in case ​one or two datacenters fail **(High Availability)**.
+- AZ are represented by a region followed by availability zone marker: us-east-1a: a here represent an AZ
+- A [[Subnet]] is associated with AZ.
+- we never choose AZ when launching resources, we choose subnets.
+![[Pasted image 20230323235615.png]]
+
 
 
 
