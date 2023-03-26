@@ -5,7 +5,7 @@
 - [[NAT]]
 - [[NIC]]
 - [[Port Forwarding]]
-- [[Questions]]
+- [[My learnings/Web/Questions]]
 - [[Server]]
 - [[SSH]]
 - [[Subnet]]

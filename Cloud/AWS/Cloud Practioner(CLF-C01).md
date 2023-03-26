@@ -102,9 +102,6 @@ Here "Massive economies of scale" means that service providers have huge space w
 ### AWS
 ![[Pasted image 20230319213918.png]]
 
-
-
-
 ### Landscape of CSPs
 **Tier-1 (Top Tier)** – Early to market, wide offering, strong synergies between services, well recognized in the industry
 
@@ -124,6 +121,13 @@ Here "Massive economies of scale" means that service providers have huge space w
 -   Vultr
 -   Digital Ocean
 -   Linode
+
+### Ways to interact with AWS:
+- AWS management console (GUI).
+- AWS Command line interface (CLI).
+- AWS software development kit (SDK).
+
+
 
 ### Magic Qudrant:
 metric to see what CSP is better
@@ -153,10 +157,6 @@ Its a lot of work to maintian.
 Functions:
 ![[Pasted image 20230319221153.png]]
 
-
-
-
-
 ### Innovation Waves:
 Kondratiev waves, it is a cycle like phenomena in global world economy.
 ### Burning platforms:
@@ -166,62 +166,15 @@ when org abandons old tech to adopt new tech with uncertainty of success and can
 General computing: EC2 
 GPU Computing: AWS inferentiare (inf1)
 Quantum Computing: AWS bracket
+
 ### AWS Global Infrastructure
 Network of globally distributed hardware and datacenters physically connected together to act as one.
+1. **Regions: ** [[Regions]]
+2. **Availability Zones(AZ):** [[Availability Zone]]
+3. 
+>Fault domain: [[Fault domain(Failure Zone)]] 
 
-**Regions: **
-- geographically distinct locations, can contain one or more *availability zones*(generally 3)(some new users are limited to 2).
-- physically isolated and independent from every other regions, in terms of power, water supply, and location.
-- new services almost always become available at US EAST-1(northern virginia)
-- service costs vary with region.
-- not all services are available at all regions.
-4 things need to be considered while choosing region:
-![[Pasted image 20230320141723.png]]
-
-**Regional vs global services:**
-AWS Scopes their AWS Management Console on a selected Region.
-This will determine where an AWS service will be launched and what will be seen within an AWS Service's console
-You generally don't explicitly set the Region for service at the time of the creation
-**Global Services**
-Some AWS Services operates across multiple regions and the region will be fixed to "Global"
-E.g. Amazon S3, Cloud Front, Route53, IAM
-
-> for regional services, there is no need to select the region.
-> but, for some of these global services, it is a bit different:
-> 1. like for IAM, it will be global, no need to select region.
-> 2. for S3 bucket, it ahs to be in one region, so need to select a region while starting up, (global means they are available everywhere, but need a region while starting up)
-> 3. for CloudFront: it is like distribution, so need to select a bunch of regions.
-
-**Availability Zones(AZ):**
-- physical location made up of one or more datacenters(a secured building contains hundreds or thousands of computers)
-- Datacenters within a region will be isolate from​ each other (different buildings). But they will​ be _close enough to provide low-latency (< 10ms)_.​
-- All AZs in an AWS Region are interconnected with high-bandwidth, low-latency networking, over fully redundant, dedicated metro fiber providing high-throughput
-- AZs are within 100 km (60 miles) of each other.
-- All traffic between AZs is encrypted
-- The use of AZ’s give customers the ability to operate production applications and databases that are more:
-	-   Highly available
-	-   Fault tolerant
-	-   Scalable
-- Its common practice to run workloads in at least​ 3 AZs to ensure services remain available in case ​one or two datacenters fail **(High Availability)**.
-- AZ are represented by a region followed by availability zone marker: us-east-1a: a here represent an AZ
-- A [[Subnet]] is associated with AZ.
-- we never choose AZ when launching resources, we choose subnets.
-![[Pasted image 20230323235615.png]]
+Edge Locations: 
 
 
-
-
-## Questions:
-- cloud computing vs legacy it infra
-- diff between cloud and cloud computing
-- diff between cloud and vm
-	- cloud is computer services over internet, db storage, computing sercices 
-	- vm is another machine given to you.
-- how hypervisors related to vm and cloudi aksed 
-	- hypervisors helps manage vms in a single phyiscal storage/server
-	- cloud can make use of hypervisors in its various operations
-- What is a CSP?
-- Diff between cloud platform vs CSP?
-- Diff between storage and database?
-- why files delete from VM
-- what are functions in serverless?
+[[My learnings/Cloud/AWS/Questions]]
