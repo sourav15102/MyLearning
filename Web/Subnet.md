@@ -5,11 +5,7 @@ A subnet is a logical subdivision of an IP network. It is a group of IP addresse
 
 
 ![[Pasted image 20230323234742.png]]
-A router can have multiple interfaces:
-1. USB
-2. LAN
-3. Wifi
-.. etc
+[[Router]]
 
 > An IP address in assigned to a interface of a machine not a host/machine wholly.
 

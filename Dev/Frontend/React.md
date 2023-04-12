@@ -14,8 +14,7 @@
 - it contains all template and logic for that component.
 - component is basically a function, and it returns  jsx template and we export that function so that it can be used elsewhere.
 - function name (component  name) has to start with capital letter.
-- the type of code returned by component is called jsx.
-	- jsx allows you to write HTML-like code within your JavaScript code. However, the JSX code is ultimately compiled down to regular JavaScript code that the browser can understand.
+- the type of code returned by component is called [[jsx]].
 - at the end we export our component function, so that we can use it other files.
 - we can write any valid js code inside function, before we return jsx template.
 

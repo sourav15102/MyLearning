@@ -7,5 +7,6 @@
 - [[Load Balancing]]
 - [[Message queue]]
 - [[Sharding]]
+- [[Topics]]
 
 %% End Waypoint %%

@@ -1,0 +1,3 @@
+When a virtual machine is created, it runs on top of a hypervisor or virtualization software that creates a virtual environment that emulates hardware resources, such as CPU, memory, storage, and network interfaces. The guest operating system is then installed on this virtual environment and runs as if it were running on physical hardware.
+
+However, the hypervisor or virtualization software still relies on the host operating system to manage the hardware resources of the physical machine, and to provide services such as device drivers and file system access to the guest operating systems. So while the guest operating systems in VMs are separate from the host operating system, they still rely on it to function.

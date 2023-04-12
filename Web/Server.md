@@ -6,7 +6,7 @@
 ## How to build a server
 1. Decide on what kind of server
 2. Decide on the OS.
-3. When you have a server running on the machine but it is not connected to any network, that would mean that the server is listening for incoming requests on a [[port]](server binds itself to a port) but it has no address.
+3. When you have a server running on the machine but it is not connected to any network, that would mean that the server is listening for incoming requests on a [[Port]](server binds itself to a port) but it has no address.
 4. When it is connect to network, it has a private IP address, now machines on same network can connect to it, but not the internet.
 5. To do that we need either [[VPN]] or [[Port Forwarding]].
 6. Once you have a server running connect to NAT gateway to enable communication between server and internet.
@@ -28,3 +28,4 @@ These two can be considered web servers: A web server is a software program that
 
 Q) What is NIC?
 A) [[NIC]]
+

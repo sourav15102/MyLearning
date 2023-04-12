@@ -1,7 +1,6 @@
 
 ### Theory:
 
-
 In sliding window, we need to first identify the when the "array" will become "valid" and when is it not.
 We take two pointers in general.
 So, we move the first pointer until our "array" is "valid" and then we start moving the second one until it is again "invalid", it can vice-versa as well, depending upon the questions.
@@ -40,7 +39,7 @@ Monotnic Queue:
 5. [[424]]
 6. [[438]]
 7. [[239]]
-8. 
+8. [1838]
 
 ### Questions:
 

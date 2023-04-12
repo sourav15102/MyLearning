@@ -1,30 +1,26 @@
 %% Begin Waypoint %%
 - **[[Cloud]]**
 - **[[CP]]**
+- **[[Data]]**
 - **Design**
 	- **[[HLD]]**
 	- **[[LLD]]**
 - **Dev**
 	- **Backend**
-		- **Java**
-			- [[API Call]]
-			- [[Code Labeller Project]]
-			- [[Data Structures]]
-			- [[DBMS making Assingment]]
-			- [[Formulas]]
-			- [[Maven]]
-			- [[Queue]]
-			- [[Stream]]
-			- [[String]]
-			- [[Thread]]
+		- **[[Java]]**
 		- [[Maven]]
 		- [[Microservices]]
 		- [[REST]]
 		- **[[Spring]]**
+			- [[Pagination]]
 			- [[Spring Index]]
 			- [[Spring Security]]
 	- **Frontend**
+		- [[JavaScript]]
+		- [[JSX]]
 		- [[React]]
+- **[[DevOps]]**
+- [[Free]]
 - **[[Git]]**
 - **Resources**
 

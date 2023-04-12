@@ -31,7 +31,7 @@
 ### Cloud Computing model:
 - IAAS
 	- Provides most flexibility.
-	- closest thing we have to on-premis data center.
+	- closest thing we have to on-premise data center.
 	- modify almost all infrastructure to fit needs
 	- Amazon EC2 (on AWS)
 	- GCP, Azure, Rackspace, Digital Ocean, Linode
@@ -44,9 +44,8 @@
 -  SAAS
 	- entire software ready to use for you
 	- ex: outlook, gmail
-	- Many AWS services (ex: Rekognition for Machine Learning)
+	- Many AWS services (ex: Recognition for Machine Learning)
 	- Google Apps (Gmail), Dropbox, Zoom
-- 
 
 ### Cloud Deployment models:
 - cloud deployment/public cloud
