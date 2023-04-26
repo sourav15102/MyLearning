@@ -16,7 +16,7 @@
 			- [[Spring Index]]
 			- [[Spring Security]]
 	- **Frontend**
-		- [[JavaScript]]
+		- **[[JavaScript-Main]]**
 		- [[JSX]]
 		- [[React]]
 - **[[DevOps]]**

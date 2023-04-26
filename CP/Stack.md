@@ -1,5 +1,6 @@
 
 ### Theory:
+
 Stack follows LIFO:
 Basic functions:
 ```java
@@ -16,8 +17,26 @@ while (iterator.hasNext()) {
     System.out.println(fruit);
 }
 ```
-
+Basic pattern:
+```java
+        for(/**/){
+            while(!st.isEmpty() && /*condition*/){
+                //do something
+                st.pop();
+            }
+            st.push(/**/);
+        }
+```
 
 ### Quick Questions:
 1. [[20]]
-2. 
+2. [[71]]
+3. [[84]]
+4. [[22]]
+5. [[155]]
+7. [[735]]
+8. [[1856]]
+9. [[853]]
+10. [[225]]
+11. [[901]]
+12. 

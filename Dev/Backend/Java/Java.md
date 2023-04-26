@@ -5,6 +5,7 @@
 - [[DBMS making Assingment]]
 - [[Formulas]]
 - [[Lambda]]
+- [[Map]]
 - [[Maven]]
 - [[QnA]]
 - [[Queue]]

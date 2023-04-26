@@ -15,6 +15,11 @@ Iterator:
 - it is a double ended queue.
 - it can used as both stack and queue.
 Functions:
+For queue:
+- add
+- peek
+- poll
+
 - add: by default add at tail
 - addLast: add at tail
 - addFirst: add at head.

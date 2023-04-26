@@ -8,7 +8,8 @@
 - [[Greedy]]
 - [[Helper]]
 - [[Modulo]]
-- **[[My learnings/CP/Questions/Questions]]**
+- **[[Patterns]]**
+- **[[Questions]]**
 - [[Sliding Window]]
 - [[Stack]]
 - [[Trees]]

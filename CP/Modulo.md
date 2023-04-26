@@ -1,7 +1,7 @@
 
 - (x%MOD + MOD)%MOD
 - always take long while calculating mod wherever you can.
-- and always take at the very end of giving answer, not in the middle.
+- and always take mod at the very end of giving answer, not in the middle.
 
 
 Questions:

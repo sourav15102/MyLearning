@@ -23,3 +23,13 @@ Today:
 - HLD
 - LLD
 - Stream
+
+
+List:
+1. CP
+2. React: course
+3. Spring boot
+4. make GitHub profile website
+5. 
+6. AWS
+7. System design
