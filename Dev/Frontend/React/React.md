@@ -1,5 +1,5 @@
 %% Begin Waypoint %%
-- [[Intro]]
+- [[My learnings/Dev/Frontend/React/Intro]]
 - [[Key Concepts]]
 
 %% End Waypoint %%
