@@ -39,4 +39,9 @@ Basic pattern:
 9. [[853]]
 10. [[225]]
 11. [[901]]
-12. 
+12. [[402]]
+13. [[895]]**
+14. 
+
+
+> hashset contains function has average o(1) TC.

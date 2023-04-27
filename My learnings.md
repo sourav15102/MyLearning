@@ -18,7 +18,8 @@
 	- **Frontend**
 		- **[[JavaScript-Main]]**
 		- [[JSX]]
-		- [[React]]
+		- **[[React]]**
+	- [[Helpful Links]]
 - **[[DevOps]]**
 - [[Free]]
 - **[[Git]]**

@@ -16,9 +16,13 @@ Iterator:
 - it can used as both stack and queue.
 Functions:
 For queue:
-- add
-- peek
-- poll
+- addLast
+- peekFirst
+- removeFirst
+For stack:
+- addLast
+- peekLast
+- removeLast
 
 - add: by default add at tail
 - addLast: add at tail

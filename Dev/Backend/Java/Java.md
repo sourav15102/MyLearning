@@ -12,6 +12,7 @@
 - [[Set]]
 - [[Stream]]
 - [[String]]
+- [[StringBuilder]]
 - [[Thread]]
 
 %% End Waypoint %%
