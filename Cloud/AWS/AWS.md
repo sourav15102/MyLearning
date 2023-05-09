@@ -13,11 +13,12 @@
 		- **s3**
 
 	- **Course**
-		- [[Cloud Computing]]
 		- [[IT Basics]]
+		- **Services**
+			- [[Billing]]
+			- [[IAM]]
 	- [[Intro]]
 	- **Resources**
 		- [[Codes & Slides]]
-	- **Services**
 
 %% End Waypoint %%
