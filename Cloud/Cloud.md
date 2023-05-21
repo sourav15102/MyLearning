@@ -1,8 +1,8 @@
 %% Begin Waypoint %%
-- **ACC**
-	- [[May 3]]
-- **Arch**
-	- [[Week 2]]
-- **[[AWS]]**
+- **AWS**
+	- **Udemy**
+		- [[Intro]]
+		- [[Questions]]
+- **[[Docker]]**
 
 %% End Waypoint %%

@@ -1,5 +1,9 @@
 %% Begin Waypoint %%
-- [[My learnings/Dev/Frontend/React/Intro]]
-- [[Key Concepts]]
+- [[Components]]
+- [[Folder Structure]]
+- [[NPM & NPX]]
+- [[Questions]]
+- [[Reat scripts]]
+- [[Theory]]
 
 %% End Waypoint %%

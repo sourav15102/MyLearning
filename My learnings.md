@@ -23,8 +23,19 @@
 - **[[DevOps]]**
 - [[Free]]
 - **[[Git]]**
+- **journals**
+	- [[2023_04_27]]
+	- [[2023_05_09]]
+- **logseq**
+
+- **[[MACS]]**
+- **pages**
+	- [[card]]
+	- [[contents]]
 - **Resources**
 
 - **[[Web]]**
+- **whiteboards**
+
 
 %% End Waypoint %%

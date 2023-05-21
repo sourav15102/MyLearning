@@ -1,6 +1,6 @@
 %% Begin Waypoint %%
 - [[Docker Container]]
-- [[Docker]]
+- [[My learnings/DevOps/Docker]]
 - [[Virtual Machines]]
 
 %% End Waypoint %%

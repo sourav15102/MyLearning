@@ -102,7 +102,7 @@ Security groups:
 ![[Pasted image 20230506173608.png]]
 
 how to connect to instance:
-- ssh: all by windows(>10)
+- ssh: all by windows(>=10)
 - putty: all windows
 - ec2 instance connect: all, on browser, amazon linux 2
 
@@ -137,7 +137,7 @@ image builder:
 - automate process of building, maintaining, validating AMI.
 - can be on schedule
 
-EC2 Instance Store: hardware NOT network
+EC2 Instance Store: hardware NOT network: block storage
 - high performance: I/O
 - ephemeral: loose if stopped
 
@@ -150,9 +150,9 @@ EFS IA:
 - for files that were not accessed recently.
 
 FSx: launch 3rd party high performance on aws
-- FSx windows file server: SMB protocol, windows ntfs
+they both are made to access data from corporate data center
+- FSx windows file server: SMB protocol, windows ntfs: integrated with MS AD
 - FSx lustre: HPC, ml, video processing
-
 
 ### ASG:
 
@@ -165,6 +165,7 @@ High avail: load balancer, ASG in multiple AZs
 Load balancer helps in:
 - one point DNS
 - SSL termination, https certificate
+- fault tolerance
 
 elasticity: automatic scaling
 
@@ -219,7 +220,7 @@ who can access S3:
 - user based: IAM policy
 - resource-based: Bucket policy, Obj ACL, bucket ACL, (Access control list)
 
-> even if we hav public access on bucket policy, public access is blocked on account level
+> even if we have public access on bucket policy, public access is blocked on account level
 
 Replication: Must enable versioning
 since it is regional, we need replication:
@@ -227,8 +228,8 @@ CRR: lower latency
 SRR: test/prod 
 
 Classes:
-Durability: 11 9s, 10mil-10 thous.
-1. general pupose: 99.99% availabiltiy
+Durability: 11 9s, 10mil -10thous.
+1. general purpose: 99.99% availability
 	1. low latency - high throughput, 
 	2. big data analytics, mobile/pc gaming
 2. IA:
@@ -237,11 +238,11 @@ Durability: 11 9s, 10mil-10 thous.
 	2. one zone: 99.5%
 		1. scondary backup on prem
 3. Glacier: for archive backup
-	1. instant
-	2. flexible
-	3. deep archive: for long term
+	1. instant: minisec
+	2. flexible: 1-5min, 3-5hrs, 5-12hrs
+	3. deep archive: for long term: 12 standard,24hrs bulk
 4. Intelligent tering:
-	1. automatic tiering b/w classes
+	1. automatic tiering b/w classes: only standard and standard IA
 	2. no retrieval cost
 	3. monitoring+auto tiering cost
 
@@ -268,10 +269,18 @@ Snowcone:
 - can be sent back or DataSync
 
 ![[Pasted image 20230506195548.png]]
+>if using more than 10pb than switch from ball to mobile.
 
 OpsHub: software for managing snowfamily devices
 
-> S3 is proprietary: how can we use it on-prem: **Storage Gateway**
+> S3,EBS,glacier is proprietary: how can we use it on-prem: **Storage Gateway**
+> Types of Storage Gateway:
+• File Gateway
+• Volume Gateway
+• Tape Gateway
+Amazon EBS 
+S3 
+Glacier
 
 
 ### Database:
@@ -311,6 +320,7 @@ Aurora:
 - more cloud native
 - mysql, postgresql
 - high performance
+- self healing
 
 Elastic Cache:
 - for redis, memcache
@@ -322,7 +332,7 @@ Dynamo DB:
 - low latency
 - serverless
 - key-value pair
-- it does active-active replication.
+- it does active-active replication.(Global tables)
 
 DynamoDB accelarator: DAX
 - 10X performance
@@ -339,7 +349,7 @@ EMR:
 - provision 100s of ec2 itself.
 - ml, data processing, big data
 
-Athena:
+Athena: provides analysis
 - serverless
 - sql
 - can query s3 using serverless sql
@@ -348,6 +358,7 @@ Quicksight:
 - serverless
 - ML powered
 - dashboards
+- business analytics drawn out of data
 
 DocumentDB
 - mongodb
@@ -399,8 +410,9 @@ Lambda:
 - pricing:
 	- call
 	- RAM X duration
-> if we want container to run on lambda: docker image should implement Lambda Runtime API.
-
+- Serverless thumbnail creation
+- cron jobs
+> if we want container to run on lambda: docker image should implement Lambda Runtime API
 
 API Gateway:
 - serverless 
@@ -416,6 +428,8 @@ Lambda vs batch:
 - lambda has time limit, batch doesn't.
 
 Lightsail:
+- for ppl with little cloud ex
+- simple web app, wbsites, dev/test env
 - everything you need to launch your project quickly – virtual machines, containers, databases, CDN, load balancers, DNS management etc.
 
 ### Infra at scale
@@ -528,6 +542,7 @@ Outposts:
 - Hybrid
 - AWS install outposts racks on premise
 - WE must physically secure the servers now.
+- start leveraging AWS services on-premises
 
 Wavelength:
 - extends telecommunications providers’ datacenters at the edge of the 5G networks.
@@ -539,7 +554,6 @@ Local region:
 Global Architecture: `[271-272]`
 - Region help with latency
 - AZ help with Availability
-
 
 ### Cloud Integration
 - apps wants to async talk
@@ -587,7 +601,7 @@ CloudWatch Alarms:
 CloudWatch Logs:
 - Need agents to collect logs from ec2 instance and on-prem servers.
 
-EventBridge
+EventBridge: cloudwatch events
 - trigger events for within aws accounts.
 - Ex:
 	- schedule cron jobs
@@ -615,7 +629,7 @@ CodeGuru:
 - Code reviewer: static code analysis, development
 - code profiler: performance recommendations, runtime, preprod and in production.
 
-AWS Health Dashboard:
+AWS Health Dashboard: - service history
 - all region, all service health
 - show history for each day.
 AWS account health dashboard - Your account
@@ -731,6 +745,14 @@ route53: shield
 
 Penetration testing:
 - allowed on 8 services without approval:
+- Amazon EC2 instances, NAT Gateways, and Elastic Load Balancers
+• Amazon RDS
+• Amazon CloudFront
+• Amazon Aurora
+• Amazon API Gateways
+• AWS Lambda and Lambda Edge functions
+• Amazon Lightsail resources
+• Amazon Elastic Beanstalk environments
 - Progibited:
 	- DNS walking
 	- DDoS
@@ -751,7 +773,7 @@ Encryption Automatically enabled:
 • Storage Gateway
 
 CloudHSM:
-- hardware: we manage our own encryption keys entierly.
+- hardware: we manage our own encryption keys entirely.
 - however, aws manages the hardware.
 - we use cloudhsm client to manage keys
 
@@ -759,12 +781,12 @@ Types of CMK: customer master keys:
 - customer managed: 
 - aws managed
 - aws owned: used for accounts
-- Cloudhsm: keys generated from cloudhsm hardware
+- Cloudhsm: keys generated from cloudhsm hardware: custom keystore
 
 AWS certificate manager (ACM):
 - provision, manage, deploy: SSL/TLS certificate
 
-AWS secret manager: RDS
+AWS secret manager: RDS integrated
 - stores secret
 - rotation of secret
 - integration with rds
@@ -936,7 +958,7 @@ Device Farm:
 - can test app against farm of devices
 
 AWS backup:
-- manage and automate backups/scheduled backups across services
+- manage and ***automate backups/scheduled backups*** across services
 - PITR: point-in-time-recovery
 - cross-region/cross-account
 
@@ -944,7 +966,7 @@ Disaster recovery strategy: ***(least to most costly)***
 - Backup & restore: S3 backup
 - pilot light: 1 ec2 with light verison of app
 - warm standby: 1 ec2 with full version, min size
-- multisite/otsite: multi site with full verwsio, full size
+- multisite/hotsite: multi site with full version, full size
 
 Elastic Disaster recovery: Cloud endure disaster recovery
 ![[Pasted image 20230507202812.png]]
@@ -967,13 +989,11 @@ Fault injection:
 - stresses app
 - pre-built template
 
-
 Step Function:
 - visual workflow to build process, microservice, parallel processing
 
-
 Ground Station:
-- satelite comminucation
+- satellite communication
 - send data to s3 or ec2
 
 Pin-point:
@@ -1003,7 +1023,7 @@ SCP:
 - doesnt apply on master account.
 - applies even on root user of an account.
 - within an account applies on user and roles.
-- doesnt apply on service-linked roles.
+- doesnt apply on service-linked roles. 
 - must have explicit allow- doesnt allow anything by default.
 - explicit deny trumps everything
 
@@ -1039,7 +1059,7 @@ Pricing:
 EC2:
 - number of instances
 - configuration
-Labmda:
+Lambda:
 - per call
 - ram X duration
 ECS and fargate:
@@ -1079,6 +1099,11 @@ Compute optimizer:
 - use ML to analyze your resource configuration
 - usage using CloudWatch metrics
 - reduce costs and improve performance
+- Supported resources
+	• EC2 instances
+	• EC2 Auto Scaling Groups
+	• EBS volumes
+	• Lambda functions
 
 Billing tools:
 Estimate:
@@ -1086,7 +1111,7 @@ Estimate:
 Tracks:
 - Billing dashboard
 - Cost Allocation tags:
-	- used to create resourc groups
+	- used to create resource groups
 	- track costs in details
 	- aws generated: aws:
 	- user generated: user: 
@@ -1121,9 +1146,9 @@ Full check: business, enterprise
 - CloudWatch alarms
 - programmatic access using support API.
 
-Basic:
-- customer service
-- 7 core trusted advisor
+Basic: again
+- customer service 24/7: discussion , doc, white,
+- 7 core trusted advisor: not for technical assistance
 - personal health dashboard
 
 Developer:
@@ -1147,44 +1172,16 @@ Enterprise: mission critical workloads
 - Business-critical system down: < 15 minutes
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### CAF:
+https://www.w3schools.com/aws/aws_cloudessentials_mig_awscaf.php
 
 
 CAF
 architecture
+what are regional services
+
 billing
+IOPS
 
 
 
