@@ -1,4 +1,31 @@
+Entry Set:
+```java
+import java.util.*;
 
+public class MapEntrySetExample {
+    public static void main(String[] args) {
+        // Create a HashMap
+        Map<String, Integer> map = new HashMap<>();
+        
+        // Add some key-value pairs
+        map.put("apple", 10);
+        map.put("banana", 5);
+        map.put("orange", 8);
+        
+        // Get the entry set
+        Set<Map.Entry<String, Integer>> entrySet = map.entrySet();
+        
+        // Iterate over the entries
+        for (Map.Entry<String, Integer> entry : entrySet) {
+            String key = entry.getKey();
+            Integer value = entry.getValue();
+            
+            System.out.println("Key: " + key + ", Value: " + value);
+        }
+    }
+}
+
+```
 Get values:
 ```java
 Map<String, Integer> map = new HashMap<>();

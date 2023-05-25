@@ -6,4 +6,4 @@
 	2. Babel: it reduce the js code into much simpler version of js which diff browsers can understand.
 	3. Webpack: it optimizes and modularize the large js code such that it send only relevant js for the moment that is needed by the browser.
 3. eject:
-	1. it can be used to modify the babel adn webpack.
+	1. it can be used to modify the babel and webpack.

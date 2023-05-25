@@ -10,7 +10,7 @@ Map<String, Integer> unsortedMap = new HashMap<>();
         unsortedMap.put("date", 1);
         unsortedMap.put("elderberry", 3);
         
-        TreeMap<String, Integer> sortedMap = new TreeMap<>(unsortedMap);
+TreeMap<String, Integer> sortedMap = new TreeMap<>(unsortedMap);
 
 // DEC order
 TreeMap<String, Integer> sortedMap = new TreeMap<>(Collections.reverseOrder());
@@ -28,7 +28,52 @@ Collections.sort(numbers, Collections.reverseOrder());
 System.out.println(numbers);
 // Output: [10, 8, 5, 3, 1]
 ```
+
+### Comparator Function
 See: comparator Function [[Comparator Function]]
+
+```
+we can convert the map to list and the sort list using Collections.sort()
+```
+
+```java
+```java
+public class Testing {
+    public static void main(String[] args) {
+        HashMap<String, Double> map = new HashMap<String, Double>();
+        ValueComparator bvc = new ValueComparator(map);
+        TreeMap<String, Double> sorted_map = new TreeMap<String, Double>(bvc);
+
+        map.put("A", 99.5);
+        map.put("B", 67.4);
+        map.put("C", 67.4);
+        map.put("D", 67.3);
+
+        System.out.println("unsorted map: " + map);
+        sorted_map.putAll(map);
+        System.out.println("results: " + sorted_map);
+    }
+}
+
+class ValueComparator implements Comparator<String> {
+    Map<String, Double> base;
+
+    public ValueComparator(Map<String, Double> base) {
+        this.base = base;
+    }
+
+    // Note: this comparator imposes orderings that are inconsistent with
+    // equals.
+    public int compare(String a, String b) {
+        if (base.get(a) >= base.get(b)) {
+            return -1;
+        } else {
+            return 1;
+        } // returning 0 would merge keys
+    }
+}
+```
+```
 
 > this is an example of descending sort.
 ```java

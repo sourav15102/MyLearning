@@ -2,7 +2,7 @@
 - [[Components]]
 - [[Folder Structure]]
 - [[NPM & NPX]]
-- [[Questions]]
+- [[My learnings/Dev/Frontend/React/Questions]]
 - [[Reat scripts]]
 - [[Theory]]
 

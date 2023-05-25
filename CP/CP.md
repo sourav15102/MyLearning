@@ -1,4 +1,5 @@
 %% Begin Waypoint %%
+- [[Array & hashing]]
 - [[Backtracking]]
 - [[Binary Search]]
 - [[Bit Manipulation]]
@@ -9,7 +10,7 @@
 - [[Helper]]
 - [[Modulo]]
 - **[[Patterns]]**
-- **[[My learnings/CP/Questions/Questions]]**
+- **[[Questions]]**
 - [[Sliding Window]]
 - [[Stack]]
 - [[Trees]]

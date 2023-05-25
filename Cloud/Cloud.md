@@ -2,7 +2,7 @@
 - **AWS**
 	- **Udemy**
 		- [[Intro]]
-		- [[Questions]]
+		- [[My learnings/Cloud/AWS/Udemy/Questions]]
 - **[[Docker]]**
 
 %% End Waypoint %%

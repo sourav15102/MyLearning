@@ -3,7 +3,7 @@
 - [[Consistent Hashing]]
 - [[Heart-beat mechanism]]
 - [[Load Balancing]]
-- [[Message queue]]
+- [[When to use Message queue]]
 
 ### Design Patterns:
 - [[Builder]]

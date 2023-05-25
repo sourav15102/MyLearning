@@ -1,5 +1,11 @@
+It is a "Distributed event streaming platform"
 
-[[Message queue]]
+Link: https://www.youtube.com/playlist?list=PLa7VYi0yPIH2PelhRHoFR5iQgflg-y6JA
+Watch from 3rd video onwards
+
+[[When to use Message queue]]
+[[Pubsub vs queue]]
+
 
 ## Kafka:(https://www.youtube.com/watch?v=LN_HcJVbySw)
 - it is used when we want to process/analyse live stream of data.
