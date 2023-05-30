@@ -1,9 +1,9 @@
 %% Begin Waypoint %%
-- [[Apache Kafka]]
 - [[Builder]]
 - [[Consistent Hashing]]
 - [[Design Index]]
 - [[Heart-beat mechanism]]
+- [[Kafka]]
 - [[Load Balancing]]
 - [[Pubsub vs queue]]
 - [[Sharding]]

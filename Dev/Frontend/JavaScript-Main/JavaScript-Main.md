@@ -7,7 +7,7 @@
 - [[if-else]]
 - [[JavaScript]]
 - [[Objects]]
-- [[Promise]]
+- [[My learnings/Dev/Frontend/JavaScript-Main/Promise]]
 - [[Strings]]
 
 %% End Waypoint %%

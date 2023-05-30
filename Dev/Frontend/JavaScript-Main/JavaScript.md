@@ -53,7 +53,7 @@ Objects: [[Objects]]
 Hoisting: [[Hoisting]]
 Class: [[Class]]
 Export & Import: [[Export-Import]]
-Promise: [[Promise]]
+Promise: [[My learnings/Dev/Frontend/JavaScript-Main/Promise]]
 
 
 

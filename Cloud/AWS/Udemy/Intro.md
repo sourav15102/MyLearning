@@ -6,7 +6,7 @@
 >There could be some in-between notes on udemy.
 
 SLS
-SLA
+SL
 Paas: some level of config freedom is required.
 Cloud native
 Cloud deployment:

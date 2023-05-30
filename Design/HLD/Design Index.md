@@ -1,5 +1,5 @@
 
-- [[Apache Kafka]]
+- [[Kafka]]
 - [[Consistent Hashing]]
 - [[Heart-beat mechanism]]
 - [[Load Balancing]]
