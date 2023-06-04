@@ -10,7 +10,6 @@
 		- **[[Java]]**
 		- [[Maven]]
 		- [[Microservices]]
-		- [[REST]]
 		- **[[Spring]]**
 			- [[Pagination]]
 			- [[Spring Index]]
@@ -25,7 +24,6 @@
 - **[[Git]]**
 - **logseq**
 
-- **[[MACS]]**
 - **pages**
 	- [[card]]
 	- [[contents]]
@@ -36,3 +34,6 @@
 
 
 %% End Waypoint %%
+
+Links:
+https://www.freecodecamp.org/learn/

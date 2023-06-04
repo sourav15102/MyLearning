@@ -1,0 +1,20 @@
+**Categories: intertwined, and build upon each other**
+- Foundational
+	- client server model
+	- network protocols
+- Key characteristics of system
+	- availability
+	- consistency
+	- latency
+	- throughput 
+	- redundancy
+- Actual components:
+	- Load balancers
+	- Rate limiting
+	- proxies
+	- caches
+	- leader election
+- Actual tech:
+	- zookeeper
+	- Amazon S3
+	- Google Cloud storage

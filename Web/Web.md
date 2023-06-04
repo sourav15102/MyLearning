@@ -1,6 +1,7 @@
 %% Begin Waypoint %%
 - [[Basics]]
 - [[Firewall]]
+- [[gPRC]]
 - [[HTTP]]
 - [[NAT]]
 - [[NIC]]
@@ -9,6 +10,7 @@
 - [[Private IP address]]
 - [[Public IP address]]
 - [[My learnings/Web/Questions]]
+- [[REST]]
 - [[Router]]
 - [[Server]]
 - [[SSH]]

@@ -2,7 +2,9 @@
 - **AWS**
 	- **Udemy**
 		- [[Intro]]
-		- [[My learnings/Cloud/AWS/Udemy/Questions]]
+		- [[My learnings/Cloud/Docker/Questions]]
 - **[[Docker]]**
+- **GCP**
+	- [[CICD Tools]]
 
 %% End Waypoint %%

@@ -9,7 +9,7 @@
 - [[JSX]]
 - [[NPM & NPX]]
 - [[Promise]]
-- [[Questions]]
+- [[My learnings/Dev/Frontend/React/Questions]]
 - [[Reat scripts]]
 - [[Rendering and re-rendering]]
 - [[Theory]]

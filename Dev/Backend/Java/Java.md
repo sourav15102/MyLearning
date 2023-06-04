@@ -1,9 +1,12 @@
 %% Begin Waypoint %%
+- [[Anonymous Inner Class]]
 - [[API Call]]
 - [[Code Labeller Project]]
 - [[Data Structures]]
 - [[DBMS making Assingment]]
 - [[Formulas]]
+- [[Generics]]
+- [[Inner Class or Nested Class]]
 - [[Lambda]]
 - [[Map]]
 - [[Maven]]

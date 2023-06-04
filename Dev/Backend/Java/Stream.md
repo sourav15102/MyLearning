@@ -1,4 +1,7 @@
-Ref link: https://www.youtube.com/watch?v=gpIUfj3KaOc&list=PLqq-6Pq4lTTa9YGfyhyW2CqdtW9RtY-I3
+Ref link: https://www.youtube.com/watch?v=tklkyVa7KZo&t=458s
+
+### Basics:
+-  we can process a stream only one time. 
 
 - Min/Max
 ```java
