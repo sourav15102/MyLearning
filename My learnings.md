@@ -7,6 +7,10 @@
 	- **[[LLD]]**
 - **Dev**
 	- **Backend**
+		- **Express**
+			- [[Hoisting]]
+			- [[Middleware]]
+			- [[Routing]]
 		- **[[Java]]**
 		- [[Maven]]
 		- [[Microservices]]

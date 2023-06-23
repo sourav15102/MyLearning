@@ -1,3 +1,4 @@
+Link: https://www.dltlabs.com/blog/bind-mounts-volumes-indocker-133067
 Mount: A mount in Docker refers to mounting a file or directory from the host machine into a container. It allows you to access files or directories on the host system directly from within the container. When you mount a file or directory, any changes made to the files within the container will also be reflected on the host system, and vice versa. Mounts are typically used for development scenarios or when you need direct access to host files from the container.
 
 Syntax example:
@@ -11,7 +12,7 @@ bash
     Syntax example:
     
     bash
-    
+
 
 1.  `docker run -v myvolume:/container/path ...`
     

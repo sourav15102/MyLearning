@@ -1,5 +1,6 @@
 %% Begin Waypoint %%
 - [[Arrays]]
+- [[Async-await]]
 - [[Class]]
 - [[Export-Import]]
 - [[Function]]
@@ -7,7 +8,7 @@
 - [[if-else]]
 - [[JavaScript]]
 - [[Objects]]
-- [[My learnings/Dev/Frontend/JavaScript-Main/Promise]]
+- [[Promise]]
 - [[Strings]]
 
 %% End Waypoint %%

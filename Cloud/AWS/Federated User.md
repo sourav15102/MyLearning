@@ -1,0 +1,5 @@
+A federated identity is a user who can sign in using a well-known external identity provider (IdP), such as Login with Amazon, Facebook, Google, or any other [OpenID Connect (OIDC)](https://openid.net/connect/)-compatible IdP. With web identity federation, you can receive an authentication token, and then exchange that token for temporary security credentials in AWS that map to an IAM role with permissions to use the resources in your AWS account. You don't sign in with the AWS Management Console or AWS access portal. Instead, the external identity in use determines how you sign in.
+
+A federated user in the context of AWS refers to a user who is not created directly in the AWS Identity and Access Management (IAM) service but instead has their identity managed by an external identity provider (IdP).
+
+When an organization already has an existing identity management system, such as Active Directory, that system can be integrated with AWS IAM using federation. This allows users to sign in to the AWS Management Console or make API calls using their existing corporate credentials rather than creating separate IAM users in AWS.
