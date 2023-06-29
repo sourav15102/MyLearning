@@ -1,5 +1,8 @@
 %% Begin Waypoint %%
+- [[Availability vs Fault Tolerance]]
+- [[Availability vs Reliability]]
 - **AWS**
+	- [[Connecting to IGW]]
 	- [[Database]]
 	- [[DynamoDB]]
 	- [[EC2]]
@@ -17,5 +20,7 @@
 	- [[CICD Tools]]
 - **[[K8S]]**
 - [[Public vs private cloud]]
+- [[RTO & RPO]]
+- [[Throughput vs bandwidth]]
 
 %% End Waypoint %%

@@ -10,7 +10,7 @@
 - [[Multi-tenancy Architecture]]
 - [[Pubsub vs queue]]
 - [[Sharding]]
-- [[My learnings/Design/HLD/Topics]]
+- [[Topics]]
 - [[When to use Message queue]]
 
 %% End Waypoint %%

@@ -1,0 +1,1 @@
+These are the Recovery Time Objective (RTO) and Recovery Point Objective (RPO). RTO is the goal your organization sets for the maximum length of time it should take to restore normal operations following an outage or data loss. RPO is your goal for the maximum amount of data the organization can tolerate losing.

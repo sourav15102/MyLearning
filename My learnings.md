@@ -2,9 +2,6 @@
 - **[[Cloud]]**
 - **[[CP]]**
 - **[[Data]]**
-- **Design**
-	- **[[HLD]]**
-	- **[[LLD]]**
 - **Dev**
 	- **Backend**
 		- **Express**
@@ -33,6 +30,9 @@
 	- [[contents]]
 - **Resources**
 
+- **System Design**
+	- **[[HLD]]**
+	- **[[LLD]]**
 - **[[Web]]**
 - **whiteboards**
 

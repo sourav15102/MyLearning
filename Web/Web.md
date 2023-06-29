@@ -8,6 +8,7 @@
 - [[NAT]]
 - [[NIC]]
 - [[Port Forwarding]]
+- [[Port multiplexing]]
 - [[Port]]
 - [[Private IP address]]
 - [[Public IP address]]
