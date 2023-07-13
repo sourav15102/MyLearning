@@ -1,0 +1,5 @@
+Latency refers to the time it takes for a data packet to travel from its source to its destination. It is essentially the delay or the time it takes for a single packet to reach its destination. Latency is typically measured in milliseconds (ms) or microseconds (µs). Low latency is desirable for real-time applications, where quick response times are crucial.
+
+Throughput, on the other hand, refers to the amount of data that can be transmitted over a network within a given time period.
+
+It's important to note that while low latency can contribute to high throughput in some cases, they are not always directly correlated. For example, a network with low latency may not necessarily have high throughput if its bandwidth is limited. Similarly, a network with high throughput may not guarantee low latency if there are significant delays in processing or queuing.

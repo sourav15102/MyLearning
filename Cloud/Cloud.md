@@ -9,12 +9,17 @@
 	- [[Federated User]]
 	- [[General Facts]]
 	- [[Mount targets]]
+	- [[NAT Gateway]]
 	- [[Roles vs Policies vs STS vs Pre-signed URL]]
 	- [[S3]]
 	- **SAA**
+		- [[RDS Engines]]
+	- [[Security Groups]]
 	- **Udemy**
 		- [[Intro]]
 		- [[Questions]]
+	- [[VPC]]
+- [[Bastion hosts]]
 - **[[Docker]]**
 - **GCP**
 	- [[CICD Tools]]

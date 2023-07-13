@@ -5,6 +5,7 @@
 	- [[Intro gPRC]]
 	- [[Proto Buffers]]
 - [[HTTP]]
+- [[My learnings/Web/Latency vs Throughput]]
 - [[NAT]]
 - [[NIC]]
 - [[Port Forwarding]]
@@ -20,6 +21,7 @@
 - [[Static vs Dynamic]]
 - [[Subnet]]
 - [[Sync vs Async]]
+- [[URL vs URI]]
 - [[VPN]]
 - [[Websockets]]
 

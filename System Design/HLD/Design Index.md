@@ -2,7 +2,7 @@
 - [[Kafka]]
 - [[Consistent Hashing]]
 - [[Heart-beat mechanism]]
-- [[Load Balancing]]
+- [[Load Balancer]]
 - [[When to use Message queue]]
 
 ### Design Patterns:

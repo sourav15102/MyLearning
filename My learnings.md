@@ -18,6 +18,7 @@
 	- **Frontend**
 		- **[[JavaScript-Main]]**
 		- [[JSX]]
+		- [[nginx]]
 		- **[[React]]**
 	- [[Helpful Links]]
 - **[[DevOps]]**

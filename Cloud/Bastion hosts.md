@@ -1,0 +1,1 @@
+https://www.twingate.com/blog/bastion-host

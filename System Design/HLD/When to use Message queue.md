@@ -3,7 +3,7 @@ When to use it?
 Link: https://www.youtube.com/watch?v=W4_aGb_MOls
 ### Prerequisites 
 - [[Sync vs Async]]
-- [[Load Balancing]]
+- [[Load Balancer]]
 - [[Consistent Hashing]]
 - [[Heart-beat mechanism]]
 - 
