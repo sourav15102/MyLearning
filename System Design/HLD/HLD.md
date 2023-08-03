@@ -5,6 +5,7 @@
 - [[Consistent Hashing]]
 - [[Design Fundamentals]]
 - [[Design Index]]
+- [[Hashing]]
 - [[Heart-beat mechanism]]
 - [[Kafka]]
 - [[Latency vs throughput vs bandwidth]]

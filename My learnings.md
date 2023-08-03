@@ -26,6 +26,7 @@
 - **[[Git]]**
 - **logseq**
 
+- **[[MACS]]**
 - **pages**
 	- [[card]]
 	- [[contents]]

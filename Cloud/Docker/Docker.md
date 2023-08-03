@@ -5,7 +5,7 @@
 - [[dockerfile]]
 - [[Images]]
 - [[Networking]]
-- [[Questions]]
+- [[My learnings/Cloud/Docker/Questions]]
 - [[Volume vs Mount]]
 
 %% End Waypoint %%
