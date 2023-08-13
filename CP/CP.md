@@ -10,7 +10,7 @@
 - [[Helper]]
 - [[Modulo]]
 - **[[Patterns]]**
-- **[[Questions]]**
+- **[[My learnings/CP/Questions/Questions]]**
 - [[Sliding Window]]
 - [[Stack]]
 - [[Trees]]

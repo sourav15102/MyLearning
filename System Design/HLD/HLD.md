@@ -8,13 +8,15 @@
 - [[Hashing]]
 - [[Heart-beat mechanism]]
 - [[Kafka]]
+- [[Key-Value Stores]]
 - [[Latency vs throughput vs bandwidth]]
 - [[Load Balancer]]
 - [[Multi-tenancy Architecture]]
 - [[Proxies]]
 - [[Pubsub vs queue]]
+- [[Relational Database]]
 - [[Sharding]]
-- [[Topics]]
+- [[My learnings/System Design/HLD/Topics]]
 - [[When to use Message queue]]
 
 %% End Waypoint %%

@@ -1,2 +1,0 @@
-- gcloud is used for interacting with GKE
-- kubectl for interal use of a cluster

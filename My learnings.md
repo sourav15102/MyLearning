@@ -24,9 +24,10 @@
 - **[[DevOps]]**
 - [[Free]]
 - **[[Git]]**
+- **Interviewprep**
+	- [[Java]]
 - **logseq**
 
-- **[[MACS]]**
 - **pages**
 	- [[card]]
 	- [[contents]]
