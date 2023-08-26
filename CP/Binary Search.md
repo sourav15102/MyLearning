@@ -1,10 +1,10 @@
 Link: https://www.youtube.com/playlist?list=PLot-Xpze53leNZQd0iINpD-MAhMOMzWvO
 
 ### Questions:
-- [[410]]
+- [[410]]*
 - [[981]]
 - [[1898]]
-- [[875]]
+- [[875]]*
 - [[367]]
 - [[441]]
 - [[658]]

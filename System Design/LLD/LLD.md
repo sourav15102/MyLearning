@@ -1,8 +1,18 @@
 %% Begin Waypoint %%
-- [[Command]]
 - **Design Pattern**
-	- [[Strategy Pattern]]
-- [[Singleton]]
+	- [[Abstract Factory]]
+	- [[Adaptor]]
+	- [[Chain of Responsibility]]
+	- [[Command]]
+	- [[Composite]]
+	- [[Decorator]]
+	- [[Factory]]
+	- [[Null Object]]
+	- [[Observer]]
+	- [[Proxy Pattern]]
+	- [[Singleton]]
+	- [[State]]
+	- [[Strategy]]
 - [[SOLID]]
 - [[Type Object]]
 

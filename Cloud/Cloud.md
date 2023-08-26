@@ -13,11 +13,20 @@
 	- [[Roles vs Policies vs STS vs Pre-signed URL]]
 	- [[S3]]
 	- **SAA**
-		- [[RDS Engines]]
+		- [[1- Fundamentals]]
+		- [[2- IAM]]
+		- [[3- EC2]]
+		- [[4- EC2- Networking]]
+		- [[5- EC2 - Storage]]
+		- [[6- Availability & Scalability]]
+		- [[7- RDS, Aurora, Elastic Cache]]
+		- [[8 - Route53]]
+		- **resources**
+
 	- [[Security Groups]]
 	- **Udemy**
 		- [[Intro]]
-		- [[My learnings/Cloud/Docker/Questions]]
+		- [[Questions]]
 	- [[VPC]]
 - [[Bastion hosts]]
 - **[[Docker]]**

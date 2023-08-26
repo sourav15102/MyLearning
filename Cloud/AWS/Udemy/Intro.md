@@ -96,8 +96,11 @@ Security groups:
 - reference ip addresses and other security groups.
 - only have "allow"
 - can be attached to multiple instances.
+- multuple security groups can be attached to one instance.
 - locked to region/vpc combination.
-> generally have diff security groups for inbound(blocked: default) and outbound traffic(authorized: default).
+- Control both inbound and outbound rules.
+	- control both IPv4/v6 ranges and ports for both.
+> generally have diff security group rules for inbound(blocked: default) and outbound traffic(authorized: default).
 > also separate one for SSH access
 ![[Pasted image 20230506173608.png]]
 
