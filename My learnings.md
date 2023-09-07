@@ -30,6 +30,8 @@
 	- [[12 - Auto boxing and unboxing]]
 	- [[13 - Regex]]
 	- [[14 - Nested classes]]
+	- [[15 - Garbage collection]]
+	- [[16 - IO]]
 	- [[Java]]
 	- [[Misc]]
 	- [[Pending]]

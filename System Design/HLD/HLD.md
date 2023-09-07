@@ -7,6 +7,7 @@
 - [[Design Index]]
 - [[Hashing]]
 - [[Heart-beat mechanism]]
+- [[Intro]]
 - [[Kafka]]
 - [[Key-Value Stores]]
 - [[Latency vs throughput vs bandwidth]]
@@ -16,7 +17,7 @@
 - [[Pubsub vs queue]]
 - [[Relational Database]]
 - [[Sharding]]
-- [[My learnings/System Design/HLD/Topics]]
+- [[Topics]]
 - [[When to use Message queue]]
 
 %% End Waypoint %%

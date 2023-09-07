@@ -21,6 +21,8 @@
 		- [[6- Availability & Scalability]]
 		- [[7- RDS, Aurora, Elastic Cache]]
 		- [[8 - Route53]]
+		- [[9 - S3]]
+		- [[10 - Advanced S3]]
 		- **resources**
 
 	- [[Security Groups]]

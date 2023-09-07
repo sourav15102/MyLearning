@@ -1,4 +1,6 @@
 %% Begin Waypoint %%
+- **Algorithms**
+	- [[Floyd’s Cycle detection or Hair Tortoise algorithm]]
 - [[Array & hashing]]
 - [[Backtracking]]
 - [[Binary Search]]

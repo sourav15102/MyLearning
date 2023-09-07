@@ -38,3 +38,23 @@ String perspective:
 BUT:
 - if we are talking about primitive data types like int, then it will check for values directly.
 
+Q: How to print without semicolon?
+A:
+```java
+if(System.out.printf("hello"+"\n")!=null)
+{}
+```
+Q: Why printf works but not println?
+A: cos `printf` returns `PrintWriter` which you can compare to `null`. `println` returns `void` i.e. nothing which you can't compare to null
+
+Q: How to create objects without new keyword?
+A:
+```java
+Class<YourClass> c = YourClass.class;
+YourClass instance = c.newInstance();
+```
+
+
+
+
+

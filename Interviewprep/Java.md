@@ -626,6 +626,9 @@ Here's a summary of the access modifiers for classes:
 
 Choosing the appropriate access modifier for your classes depends on whether you want them to be accessible outside the package or restricted to the same package.
 
+>only public classes needs to be defined as same name a filename, it is not needed for default classes.
+>there cant be two public class in one file, for obvious reasons.
+
 **Q: Compile time and runtime polymorphism**
 A:
 
