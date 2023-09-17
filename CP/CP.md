@@ -16,7 +16,9 @@
 - **[[Questions]]**
 - [[Sliding Window]]
 - [[Stack]]
-- [[Trees]]
+- **Tree**
+	- [[Binary Tree]]
+	- [[BST]]
 - [[Two Pointers]]
 - [[Union Find]]
 

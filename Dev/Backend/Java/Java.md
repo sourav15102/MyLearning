@@ -1,6 +1,7 @@
 %% Begin Waypoint %%
 - [[Anonymous Inner Class]]
 - [[API Call]]
+- [[Characters]]
 - [[Code Labeller Project]]
 - [[Data Structures]]
 - [[DBMS making Assingment]]

@@ -8,3 +8,9 @@ Set<String> set = new HashSet<>(){{
     add("three");
 }};
 ```
+
+1. add()
+2. contains()
+3. remove()
+4. isEmpty()
+5. size()
