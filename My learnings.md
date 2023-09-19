@@ -24,6 +24,20 @@
 - **[[DevOps]]**
 - [[Free]]
 - **[[Git]]**
+- **Interviewprep**
+	- [[10 - Exception Handeling]]
+	- [[11 - String]]
+	- [[12 - Auto boxing and unboxing]]
+	- [[13 - Regex]]
+	- [[14 - Nested classes]]
+	- [[15 - Garbage collection]]
+	- [[16 - IO]]
+	- [[17 - Serialization]]
+	- [[18 - Socket]]
+	- [[Java]]
+	- [[Misc]]
+	- [[Pending]]
+	- [[Plan]]
 - **logseq**
 
 - **pages**

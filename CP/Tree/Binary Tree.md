@@ -10,8 +10,9 @@ BFS:
 1. level order traversal
 
 ### Properties:
-1. The maximum number of nodes at level 'l' of a binary tree is 2^l.
-2. The Maximum number of nodes in a binary tree of height 'h' is (2^h) - 1.
+1. For any kind of tree, Edges = Nodes-1;
+2. The maximum number of nodes at level 'l' of a binary tree is 2^l.
+3. The Maximum number of nodes in a binary tree of height 'h' is (2^h) - 1.
 	Derivation
 	 ```markdown
    - 1 + 2 + 4 + 2^h = summation is (2^h) - 1
@@ -100,10 +101,16 @@ BFS:
 ### Tools
 - calculate depth
 - spiral level traversal using: stack, recursion, queue
-- LCA
+- [[LCA - Least Common Ancestor]]
 - diameter
+- print path [Link](https://takeuforward.org/data-structure/print-root-to-node-path-in-a-binary-tree/)
+- euler tour
+- hld
 ### Questions:
 - [[104]] (depth)
 - [[543]] (diameter)
 - [[110]]
-- 
+- [[572]]
+- [[235]] (LCA)
+- [[102]] (level order)
+- [[199]]

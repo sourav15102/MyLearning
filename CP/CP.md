@@ -1,6 +1,7 @@
 %% Begin Waypoint %%
 - **Algorithms**
 	- [[Floyd’s Cycle detection or Hair Tortoise algorithm]]
+	- [[LCA - Least Common Ancestor]]
 - [[Array & hashing]]
 - [[Backtracking]]
 - [[Binary Search]]
@@ -14,6 +15,8 @@
 - [[Modulo]]
 - **[[Patterns]]**
 - **[[Questions]]**
+- **Resources**
+
 - [[Sliding Window]]
 - [[Stack]]
 - **Tree**
