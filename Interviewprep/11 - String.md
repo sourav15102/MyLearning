@@ -79,7 +79,7 @@ A:
 A: Only one object will be created using the above code because strings in Java are immutable
 
 **Q: How many objects will be created in the following code?**
-```java
+ ```java
 1. String s = new String("Welcome");  
 ```
 A: Two objects, one in string constant pool and other in non-pool(heap), but, s will point to the non-pool(heap) one.

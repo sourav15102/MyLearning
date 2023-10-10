@@ -28,7 +28,7 @@
 	- [[Security Groups]]
 	- **Udemy**
 		- [[Intro]]
-		- [[My learnings/Cloud/Docker/Questions]]
+		- [[Questions]]
 	- [[VPC]]
 - [[Bastion hosts]]
 - **[[Docker]]**

@@ -81,7 +81,7 @@ A:
 - used to perform cleanup processing.
 - It is NOT a keyword
 - GC of JVM collects objects created by new keyword. So obj created without new can use the finalize method to perform cleanup processing
-	- However, there might be cases where objects are created using mechanisms other than `new`, such as using native methods or external resources. In such cases, the JVM's garbage collector might not be aware of these objects
+	- However, there might be cases where objects are created using mechanisms other than `new`, such as using native methods or external resources. In such cases, the JVM's garbage collector might not be aware of these objects.
 ```java
 public class ResourceCleanupExample {
     private NativeResource nativeResource;

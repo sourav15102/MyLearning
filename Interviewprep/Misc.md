@@ -54,7 +54,131 @@ Class<YourClass> c = YourClass.class;
 YourClass instance = c.newInstance();
 ```
 
+Q: strictfp keyword?
+A:
+**strictfp" Keyword in Java:**
+- "strictfp" is a Java keyword used with classes, interfaces, and methods.
+- It ensures that floating-point calculations in the marked code are performed precisely as defined by the IEEE 754 standard, regardless of the underlying platform.
+- It's often used in situations where strict control over floating-point precision is necessary, such as financial applications.
+- When applied to a class or interface, all methods within it become "strictfp."
+- When applied to a method, only that specific method's calculations follow strict precision rules.
+```java
+strictfp class MyClass {
+    // All methods in this class will follow strict floating-point rules
+    strictfp void myMethod() {
+        // This method adheres to strictfp rules
+    }
+}
+```
 
+Q: System class:
+A: 
+1. **Standard Input and Output:**
+   ```java
+   // Reading from standard input
+   Scanner scanner = new Scanner(System.in);
+   System.out.println("Enter your name:");
+   String name = scanner.nextLine();
+   System.out.println("Hello, " + name);
 
+   // Writing to standard output
+   System.out.println("This is a message to standard output.");
+   ```
+2. **Error Output Stream:**
+   ```java
+   // Writing to the error output stream
+   System.err.println("This is an error message.");
+   ```
+3. **Utility Method to Copy Array:**
+   ```java
+   // Using arraycopy method to copy an array
+   int[] sourceArray = {1, 2, 3, 4, 5};
+   int[] destinationArray = new int[5];
+   System.arraycopy(sourceArray, 0, destinationArray, 0, sourceArray.length);
+   ```
+```java
+source_array : 10 20 30 40 50 60 70 80 90 100 
+sourcePos : 3
+dest_array : 15 25 35 45 55 65 75 85 95 105 
+destPos : 5
+len : 4
+final dest_array : 15 25 35 45 55 40 50 60 70 105
+```
+1. **Utilities to Load Files and Libraries:**
+   ```java
+   // Loading a file using FileInputStream
+   FileInputStream fileInputStream = new FileInputStream("example.txt");
 
+   // Loading a library using System.loadLibrary
+   System.loadLibrary("myLibrary");
+   ```
+5. **Static Fields of System Class:**
+   ```java
+   // Accessing static fields of System class
+   InputStream standardInput = System.in;
+   PrintStream errorOutput = System.err;
+   PrintStream standardOutput = System.out;
+   ```
 
+Q: Singleton class
+A:
+```java
+- class Singleton{  
+-     private static Singleton single_instance = null;  
+-     int i;  
+-      private Singleton ()  
+-      {  
+-          i=90;  
+-      }  
+-      public static Singleton getInstance()  
+-      {  
+-          if(single_instance == null)  
+-          {  
+-              single_instance = new Singleton();  
+-          }  
+-          return single_instance;  
+-      }  
+- }  
+- public class Main   
+- {  
+-     public static void main (String args[])  
+-     {  
+-         Singleton first = Singleton.getInstance();  
+-         System.out.println("First instance integer value:"+first.i);  
+-         first.i=first.i+90;  
+-         Singleton second = Singleton.getInstance();  
+-         System.out.println("Second instance integer value:"+second.i);  
+-     }  
+- }
+```
+Q: Applet?
+A:
+An applet is a small Java program that runs inside a web browser to generate dynamic content. It operates on the client side and is embedded within webpages, with the help of plugins.
+When an applet is created, the following methods are invoked in order.
+- init()
+- start()
+- paint()
+When an applet is destroyed, the following functions are invoked in order.
+- stop()
+- destroy()
+
+Q: Locale?
+A:
+```java
+1. import java.util.*;  
+2. public class LocaleExample {  
+3. public static void main(String[] args) {  
+4. Locale locale=Locale.getDefault();  
+5. //Locale locale=new Locale("fr","fr");//for the specific locale  
+
+7. System.out.println(locale.getDisplayCountry());  
+8. System.out.println(locale.getDisplayLanguage());  
+9. System.out.println(locale.getDisplayName());  
+10. System.out.println(locale.getISO3Country());  
+11. System.out.println(locale.getISO3Language());  
+12. System.out.println(locale.getLanguage());  
+13. System.out.println(locale.getCountry());  
+
+15. }  
+16. }
+```

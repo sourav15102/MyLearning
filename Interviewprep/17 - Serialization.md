@@ -1,6 +1,12 @@
 - We can serialize object.
 - static fields do not belong to object so cant be serializable.
 - transient keyword: prevents field from being serialized
+	- even if value is assigned in class, like
+	- private int x = 6;
+	- after deserialization it will be 0, cos?
+	- during deserilization whenever it sees transient variable it will just give it 0,null.
+	- IF, it is final then its value is stored in constant pool and will be 6.
+	- if it is private final transient String x = new String().. it will be not in constant pool so null.
 
 How to serialize objects:
 ```java

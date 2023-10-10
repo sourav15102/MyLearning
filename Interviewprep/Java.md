@@ -752,3 +752,14 @@ We can import it multiple times, but classloader in JVM wont load it multiple ti
 **Q: Static import**
 A:
 Allow to use any static member of a class directly. There is no need to qualify it by the class name.
+```java
+import static java.lang.Math.*;
+class Test2 {
+    public static void main(String[] args)
+    {
+        System.out.println(sqrt(4));
+        System.out.println(pow(2, 2));
+        System.out.println(abs(6.3));
+    }
+}
+```

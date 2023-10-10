@@ -10,7 +10,7 @@
 - [[Inner Class or Nested Class]]
 - [[Lambda]]
 - [[Map]]
-- [[Maven]]
+- [[My learnings/Dev/Backend/Java/Maven]]
 - [[QnA]]
 - [[Queue]]
 - [[Set]]

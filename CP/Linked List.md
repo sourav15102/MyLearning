@@ -18,6 +18,6 @@
 - [[86]]
 - [[138]] - {use map for it}
 - [[287]] (floyd)
-- [[622]] (can skip, just take a read)
+- [[622 1]] (can skip, just take a read)
 - [[147]] (merge node in list)
 - [[146]] (LRU)

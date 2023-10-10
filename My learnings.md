@@ -34,10 +34,24 @@
 	- [[16 - IO]]
 	- [[17 - Serialization]]
 	- [[18 - Socket]]
+	- [[19 - Java Bean]]
+	- [[20 - RMI]]
+	- [[21 - Maven]]
+	- [[22 - Jar, War]]
+	- [[23  - Servlets]]
+	- [[24 - JMS]]
+	- [[25 - Reflection]]
+	- [[26 - CICD]]
+	- [[27 - Git]]
+	- [[28 - Docker]]
+	- [[29 - Cloud]]
+	- [[30 - OOPs]]
 	- [[Java]]
+	- [[Last Day]]
 	- [[Misc]]
 	- [[Pending]]
-	- [[Plan]]
+	- **Resume**
+		- [[Maven]]
 - **logseq**
 
 - **pages**
