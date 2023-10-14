@@ -712,7 +712,6 @@ Certainly, here's the table comparing abstract classes and interfaces in Java:
 | Example              | `public abstract class Shape {`<br>`public abstract void draw();`<br>`}` | `public interface Drawable {`<br>`void draw();`<br>`}` |
 
 
-
 **Q: How to make read only class?**
 A:
 1. make all instance variables private.

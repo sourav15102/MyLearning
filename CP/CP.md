@@ -21,7 +21,7 @@
 - [[Stack]]
 - **Tree**
 	- [[Binary Tree]]
-	- [[BST]]
+	- [[Segment Tree]]
 - [[Two Pointers]]
 - [[Union Find]]
 
