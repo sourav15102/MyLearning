@@ -25,7 +25,7 @@
 - [[Free]]
 - **[[Git]]**
 - **Interviewprep**
-	- [[10 - Exception Handeling]]
+	- [[10 - Exception Handleing]]
 	- [[11 - String]]
 	- [[12 - Auto boxing and unboxing]]
 	- [[13 - Regex]]

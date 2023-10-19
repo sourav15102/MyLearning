@@ -1,6 +1,7 @@
 %% Begin Waypoint %%
 - **Algorithms**
 	- [[Floyd’s Cycle detection or Hair Tortoise algorithm]]
+	- [[Knuth–Morris–Pratt - Pattern]]
 	- [[LCA - Least Common Ancestor]]
 - [[Array & hashing]]
 - [[Backtracking]]
@@ -11,6 +12,7 @@
 - [[Graph]]
 - [[Greedy]]
 - [[Helper]]
+- [[Intervals]]
 - [[Linked List]]
 - [[Modulo]]
 - **[[Patterns]]**
@@ -22,6 +24,7 @@
 - **Tree**
 	- [[Binary Tree]]
 	- [[Segment Tree]]
+- [[Trie]]
 - [[Two Pointers]]
 - [[Union Find]]
 
