@@ -11,6 +11,7 @@
 - [[Game Playing]]
 - [[Graph]]
 - [[Greedy]]
+- [[Heap & Priority Queue]]
 - [[Helper]]
 - [[Intervals]]
 - [[Linked List]]

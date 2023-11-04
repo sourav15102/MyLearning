@@ -11,7 +11,19 @@ if we do:
 ```java
 x = x + " pqr";
 ```
-- it wont change the string object, rather it will create new String literal and x will start pointing to that literal instead. 
+- it wont change the string object, rather it will create new String literal in heap and string constant pool and x will start pointing to that heap literal instead. 
+```java
+        String str1 = "Hello";  
+        String str2 = "World";  
+        String str4 = str1 + str2;  // is heap pool.
+        String x = "HelloWorld";  // litral in string constant pool.
+        System.out.println(x==str4);  
+        System.out.println(x==str4.intern());
+```
+```
+false
+true
+```
 
 Why is it so?: there are many benefits:
 - Saves memory: pointing to same object literal.

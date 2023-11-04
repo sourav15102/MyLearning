@@ -4,6 +4,7 @@
 - [[3]]
 - [[4]]
 - [[11]]
+- [[14]]
 - [[15]]
 - [[20]]
 - [[21]]
@@ -30,6 +31,7 @@
 - [[153]]
 - [[155]]
 - [[199]]
+- [[211]]
 - [[225]]
 - [[234]]
 - [[235]]
@@ -73,5 +75,8 @@
 - [[1993]]
 - **Coding Ninjas**
 	- [[Complete String]]
+	- [[Count Distinct Substrings]]
+	- [[Maximum XOR With an Element From Array]]
+	- [[Maximum XOR]]
 
 %% End Waypoint %%

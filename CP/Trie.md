@@ -181,4 +181,18 @@ public class Trie {
 
 Coding Ninjas:
 1. [[Complete String]]
-2. 
+2. [[Count Distinct Substrings]]
+
+LeetCode:
+1. [[211]]
+2. [[14]] **
+
+
+### Trie with bit operations:
+Link: https://www.youtube.com/watch?v=5iyuU4hQFrw&list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp&index=9&ab_channel=takeUforward
+
+Coding Ninjas:
+1. [[Maximum XOR]] **
+2. [[Maximum XOR With an Element From Array]]
+
+
