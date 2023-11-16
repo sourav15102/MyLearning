@@ -110,10 +110,24 @@ Problem Patterns where HEAP is used
 - Two Heaps Pattern
 - Minimum Number Pattern
 
+Theory: 
+1. [[Priority Queue]]
+2. [[K largest and k smallest pattern]]
+3. 
+
 Questions:
 LC discussions: 
-1. [1]()
+1. [1](https://leetcode.com/discuss/general-discussion/1127238/master-heap-by-solving-23-questions-in-4-patterns-category)
 2. [2](https://leetcode.com/discuss/general-discussion/1113631/important-concepts-problems-in-priority-queueheaps)
 
 LC:
-1. 
+1. [[703]]
+2. [[1046]]
+3. [[973]]
+4. [[621]] (Task Scheduler)
+5. [[355]]
+6. [[295]]**
+
+Coding Ninja:
+1. [[Maximum Sum Combination]]**
+2. 

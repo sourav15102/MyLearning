@@ -16,10 +16,12 @@
 			- [[Spring Index]]
 			- [[Spring Security]]
 	- **Frontend**
+		- **Angular**
 		- **[[JavaScript-Main]]**
 		- [[JSX]]
 		- [[nginx]]
 		- **[[React]]**
+		- **TypeScript**
 	- [[Helpful Links]]
 - **[[DevOps]]**
 - [[Free]]

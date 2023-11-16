@@ -31,3 +31,9 @@ git config --global user.email "sghai@dal.ca"
 //similarly for --local
 ```
 
+***Q) How to see all branches which are present in remote repo.***
+A)
+```
+git branch -r
+```
+r = remote

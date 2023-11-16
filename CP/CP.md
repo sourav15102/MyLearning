@@ -1,8 +1,10 @@
 %% Begin Waypoint %%
+- [[647]]
 - **Algorithms**
 	- [[Floyd’s Cycle detection or Hair Tortoise algorithm]]
 	- [[Knuth–Morris–Pratt - Pattern]]
 	- [[LCA - Least Common Ancestor]]
+	- [[Manacher's Algorithm]]
 - [[Array & hashing]]
 - [[Backtracking]]
 - [[Binary Search]]

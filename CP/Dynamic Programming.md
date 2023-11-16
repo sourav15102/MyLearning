@@ -1,3 +1,25 @@
+
+### Theory:
+
+
+### Questions:
+Coding Ninja:
+1. [[Longest Common Substring]]
+2. 
+
+LC:
+1. [[198]]
+2. [[213]] **
+3. [[5]] **
+4. [[647]]
+5. 
+
+
+
+
+
+
+
 Link: . https://leetcode.com/discuss/general-discussion/1050391/Must-do-Dynamic-programming-Problems-Category-wise
 
 ### Linear DP:
@@ -8,7 +30,5 @@ Link: . https://leetcode.com/discuss/general-discussion/1050391/Must-do-Dynamic-
 
 ### String and DP:
 - 
-
-
 ### Next Steps
 - [[Game Playing]]
