@@ -1,6 +1,7 @@
 %% Begin Waypoint %%
 - [[647]]
 - **Algorithms**
+	- [[Boyer–Moore majority vote algorithm]]
 	- [[Floyd’s Cycle detection or Hair Tortoise algorithm]]
 	- [[Knuth–Morris–Pratt - Pattern]]
 	- [[LCA - Least Common Ancestor]]
