@@ -15,3 +15,6 @@ the idea is something like `kadane's` algorithm, where we can traverse from left
 
 at the end, if number of subarrays we had to start again goes beyond k, that would indicate that such partition is not possible.
 
+Question:
+- [[410]]
+- 

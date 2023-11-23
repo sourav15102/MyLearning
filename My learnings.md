@@ -59,6 +59,7 @@
 - **pages**
 	- [[card]]
 	- [[contents]]
+- [[README]]
 - **Resources**
 
 - **System Design**

@@ -9,3 +9,5 @@ Peer connection:
 After we let peers communicate with each other, how can one peer know which peer to talk to next. There are few ways to achieve this:
 1. Central db: this machine would know which peer a particular peer talk to next. It means whenever a peer is talking another, they also communicate that with this central DB, to let it know.. not such a good solution.
 2. Gossip/epidemic protocol: It kinds of mimics how people gossip, each peer has DHT(distributed hash table) which has the mappings of whatever chunks a particular peer has and what chunks a peer which it has talked to has, and thats how the DHT or information about chunks spread. 
+
+checkout [Kraken](https://github.com/uber/kraken)
