@@ -5,7 +5,7 @@
 ### Questions:
 Coding Ninja:
 1. [[Longest Common Substring]]
-2. 
+2. [[Matrix Chain Multiplication]]
 
 LC:
 1. [[198]]
@@ -23,7 +23,9 @@ LC:
 2. [[518]]
 3. [[494]]**
 4. [[97]]
-5. 
+5. [[115]]
+6. [[312]]**
+7. [[10]]**
 
 
 
