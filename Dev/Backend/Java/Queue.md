@@ -38,6 +38,36 @@ For stack:
 - pollLast: from tail
 - pop(): delete from head adn return.
 
+https://www.baeldung.com/java-array-deque
+```java
+// 3.1 Using ArrayDeque as a Stack
+
+// Pushing elements onto the stack
+Deque<String> stack = new ArrayDeque<>();
+stack.push("first");
+stack.push("second");
+
+// Asserting the top element after pushing
+assertEquals("second", stack.getFirst());
+
+// Popping element from the stack
+assertEquals("second", stack.pop());
+
+
+// 3.2 Using ArrayDeque as a Queue
+
+// Offering elements to the queue
+Deque<String> queue = new ArrayDeque<>();
+queue.add("first");
+queue.add("second");
+
+// Asserting the last element after offering
+assertEquals("second", queue.getLast());
+
+// Polling element from the queue
+assertEquals("first", queue.poll());
+
+```
 
 
 ### LinkedlList:

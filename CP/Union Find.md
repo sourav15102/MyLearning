@@ -16,3 +16,10 @@ static void Union(int parent[], int x, int y)
 ```
 
 Optimized:
+
+Questions:
+LC:
+1. [[684]]
+2. [Find connected components](https://leetcode.ca/all/323.html)
+3. [Graph valid tree](https://leetcode.ca/all/261.html)
+4. 

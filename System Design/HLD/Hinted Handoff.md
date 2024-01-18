@@ -1,0 +1,1 @@
+https://systemdesign.one/hinted-handoff/

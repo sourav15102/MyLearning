@@ -1,11 +1,21 @@
 %% Begin Waypoint %%
-- [[647]]
 - **Algorithms**
+	- [[0-1 BFS]]
+	- [[Articulation]]
+	- [[Bellman Ford]]
 	- [[Boyer–Moore majority vote algorithm]]
+	- [[Dijkstra]]
+	- [[Eulerian path and circuits]]
+	- [[Floyd Warshall Algorithm]]
 	- [[Floyd’s Cycle detection or Hair Tortoise algorithm]]
 	- [[Knuth–Morris–Pratt - Pattern]]
+	- [[Kosaraju]]
+	- [[Kruskal]]
 	- [[LCA - Least Common Ancestor]]
 	- [[Manacher's Algorithm]]
+	- [[Multisource BFS]]
+	- [[Prims]]
+	- [[Single-Single Shortest Path]]
 - [[Array & hashing]]
 - [[Backtracking]]
 - [[Binary Search]]
@@ -22,7 +32,7 @@
 - **[[Patterns]]**
 - **[[Questions]]**
 - **Resources**
-
+	- [[Spanning Trees]]
 - [[Sliding Window]]
 - [[Stack]]
 - **Tree**

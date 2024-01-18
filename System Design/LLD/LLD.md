@@ -10,6 +10,7 @@
 	- [[Null Object]]
 	- [[Observer]]
 	- [[Proxy Pattern]]
+	- [[Questions]]
 	- [[Singleton]]
 	- [[State]]
 	- [[Strategy]]

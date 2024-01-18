@@ -62,3 +62,8 @@ Certainly, let's go through the basic operations with their time complexities fo
 
 
 These are general time complexities for the operations on a `HashSet` in Java. The actual performance may vary based on factors such as the hash function quality, load factor, and collisions. The worst-case time complexity for certain operations is influenced by potential collisions, which might result in linked list traversal in separate chaining hash table implementations.
+
+
+Questions:
+Q1: why would hashset's performance depend on number of elements?
+A1: 

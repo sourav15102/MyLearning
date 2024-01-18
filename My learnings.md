@@ -63,6 +63,7 @@
 - **Resources**
 
 - **System Design**
+	- [[Design Index]]
 	- **[[HLD]]**
 	- **[[LLD]]**
 - **[[Web]]**
