@@ -1,7 +1,6 @@
 %% Begin Waypoint %%
 - **[[Cloud]]**
 - **[[CP]]**
-- **[[Data]]**
 - **Dev**
 	- **Backend**
 		- **Express**
@@ -11,20 +10,12 @@
 		- **[[Java]]**
 		- [[Maven]]
 		- [[Microservices]]
-		- **[[Spring]]**
-			- [[Pagination]]
-			- [[Spring Index]]
-			- [[Spring Security]]
 	- **Frontend**
-		- **Angular**
 		- **[[JavaScript-Main]]**
 		- [[JSX]]
-		- [[nginx]]
 		- **[[React]]**
-		- **TypeScript**
 	- [[Helpful Links]]
 - **[[DevOps]]**
-- [[Free]]
 - **[[Git]]**
 - **Interviewprep**
 	- [[10 - Exception Handleing]]
@@ -54,11 +45,7 @@
 	- [[Pending]]
 	- **Resume**
 		- [[Maven]]
-- **logseq**
-
-- **pages**
-	- [[card]]
-	- [[contents]]
+- **[[Misc Learnings]]**
 - [[README]]
 - **Resources**
 
@@ -67,8 +54,6 @@
 	- **[[HLD]]**
 	- **[[LLD]]**
 - **[[Web]]**
-- **whiteboards**
-
 
 %% End Waypoint %%
 

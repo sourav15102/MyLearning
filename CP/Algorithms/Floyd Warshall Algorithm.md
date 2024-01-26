@@ -33,3 +33,26 @@ def floyd_warshall(graph):
                       
     return dist
 ```
+Detect -ve cycle:
+```java
+import numpy as np
+
+def detect_negative_cycle(graph):
+    n = len(graph)
+    dist = np.array(graph)
+
+    # Run the Floyd-Warshall algorithm
+    for k in range(n):
+        for i in range(n):
+            for j in range(n):
+                if dist[i][k] + dist[k][j] < dist[i][j]:
+                    dist[i][j] = dist[i][k] + dist[k][j]
+
+    # Check for negative cycle
+    for i in range(n):
+        if dist[i][i] < 0:
+            return True  # Negative cycle detected
+
+    return False  # No negative cycle detected
+
+```

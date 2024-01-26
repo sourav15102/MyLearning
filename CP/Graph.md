@@ -10,6 +10,7 @@ Link: https://cp-algorithms.com/graph/depth-first-search.html
 		- [[1020]]
 	- General rule of thumb: when putting x's children into queue, make them visited before putting them in queue, so you dont end up with duplicate values in queue.
 1. DFS
+	1. [[DFS CAUTION]]
 2. Connected components: [[Discovery vs Lowest time]]
 	3. Find bridges: https://cp-algorithms.com/graph/bridge-searching.html
 		1. offline: (Tarjan's algorithm) [[1192]] *an imp note here*
@@ -26,15 +27,21 @@ Link: https://cp-algorithms.com/graph/depth-first-search.html
 4. Topological sort [[210]]*
 5. Bipartite graph [[785]]
 6. Paths
-	1. [[Dijkstra]]
+	1. [[Dijkstra]] 
+		1. Read 'Important points' inside here.
+		2. Read 'Using lambda' inside [[Comparator Function]]
 	2. [[Bellman Ford]] (Can detect -ve cycle.)
 	3. [[Single-Single Shortest Path]]
 	4. [[Floyd Warshall Algorithm]] (All Pair Shortest Algorithm)
+		1. [[1334]]
 7. [[Spanning Trees]]
 	1. [[Prims]]
 	2. [[Kruskal]]
-8. [[Second Best MST]]
-9. Flow Algorithms
+8. Dynamic Graph using union find
+	1. [[Data Stream]]**
+	2. [[827]]**
+9. [[Second Best MST]]
+10. Flow Algorithms
 
 > Alternative to mark something as visited via `boolean[]` we can use a HashSet instead. 
 
@@ -61,5 +68,12 @@ LC:
 - [[1020]] ([[Multisource BFS]])
 - [[802]]**
 - [[269 - Alien Dictionary]]**
-- 
+- [[1334]]
+- Dij:
+- [[743]]
+- [[1976]]**
+- [[778]]
+- Graph using Union-find:
+- [[352]]**
+- [[827]]**
 

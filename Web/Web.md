@@ -1,11 +1,8 @@
 %% Begin Waypoint %%
 - [[Basics]]
 - [[Firewall]]
-- **gRPC**
-	- [[Intro gPRC]]
-	- [[Proto Buffers]]
 - [[HTTP]]
-- [[My learnings/Web/Latency vs Throughput]]
+- [[Latency vs Throughput]]
 - [[NAT]]
 - [[NIC]]
 - [[Port Forwarding]]
@@ -13,7 +10,7 @@
 - [[Port]]
 - [[Private IP address]]
 - [[Public IP address]]
-- [[My learnings/Web/Questions]]
+- [[Questions]]
 - [[REST]]
 - [[Router]]
 - [[Server]]
@@ -23,6 +20,5 @@
 - [[Sync vs Async]]
 - [[URL vs URI]]
 - [[VPN]]
-- [[Websockets]]
 
 %% End Waypoint %%

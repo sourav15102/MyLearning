@@ -38,3 +38,31 @@ System.out.println(people);
 // Output: [Charlie (20), Alice (25), Eva (28), Bob (30), David (35)]
 
 ```
+
+##### Using lambda:
+```java
+class Node {
+            public int a;
+            public int b;
+
+            public Node(int a, int b) {
+                this.a = a;
+                this.b = b;
+            }
+        }
+
+        // Create a list of Node objects
+        List<Node> nodeList = new ArrayList<>();
+        nodeList.add(new Node(5, 10));
+        nodeList.add(new Node(2, 15));
+        nodeList.add(new Node(8, 5));
+        nodeList.add(new Node(1, 20));
+        nodeList.add(new Node(1, 15));
+
+        // Sort the list based on 'a' in ascending order, and if 'a' values are the same, sort by 'b' in descending order
+        nodeList.sort(
+                Comparator.comparing((Node node) -> node.a)
+                          .thenComparing((Node node) -> node.b)
+                          .reversed()
+        );
+```
