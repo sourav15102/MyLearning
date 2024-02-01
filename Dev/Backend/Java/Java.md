@@ -2,6 +2,7 @@
 - [[Anonymous Inner Class]]
 - [[Characters]]
 - [[Data Structures]]
+- [[Functional Interface]]
 - [[Generics]]
 - [[Inner Class or Nested Class]]
 - [[Lambda]]

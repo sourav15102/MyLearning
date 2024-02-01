@@ -1,0 +1,2 @@
+- A method without implementation is called Abstract method.
+- An interface with only one abstract method is called Function Interface or Single Abstract Method (SAM).

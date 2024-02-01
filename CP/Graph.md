@@ -38,7 +38,7 @@ Link: https://cp-algorithms.com/graph/depth-first-search.html
 	1. [[Prims]]
 	2. [[Kruskal]]
 8. Dynamic Graph using union find
-	1. [[Data Stream]]**
+	1. [[352]]**
 	2. [[827]]**
 9. [[Second Best MST]]
 10. Flow Algorithms
@@ -73,7 +73,21 @@ LC:
 - [[743]]
 - [[1976]]**
 - [[778]]
-- Graph using Union-find:
+- Min stops with K stops:
+- [[787]]
+- Graphs using Union-find:
 - [[352]]**
 - [[827]]**
+	- Combine all nodes in a component under one hood.
+- [[Number of Island II]]*
+- [[1319]]**
+- Eulerian
+- [[332]]
+
+Pending:
+- [[332]]
+- [787]
+- [[947]]
+- https://www.codingninjas.com/studio/problems/articulation-point_840708?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+- 
 
