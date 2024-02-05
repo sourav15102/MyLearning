@@ -26,8 +26,9 @@
 - [[Greedy]]
 - [[Heap & Priority Queue]]
 - [[Helper]]
-- [[Intervals]]
+- [[Intervals & Line Sweep]]
 - [[Linked List]]
+- [[Math & Geometry]]
 - [[Modulo]]
 - **[[Patterns]]**
 - **[[Questions]]**

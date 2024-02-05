@@ -15,13 +15,18 @@ The final algorithm can be summarised as:
 - **Optimization Problems** – For this type, we search for the best solution.
 - **Enumeration Problems** – We find set of all possible feasible solutions to the problems of this type.
 
+### Caution:
+- There can be scenarios where we are using same memory in multiple locations messing up the entire state.
+
 Problems:
 1. [[78]] & [[90]]
 2. [[39]]
 3. [[46]]*
 4. [[40]] (DP and BKTR) (Read issue inside) **
 5. [[79]]*
-6. 
+6. [[131]]
+7. [[51]]**
+8. [[212]]** (Trie and Backtracking)
 
 
 

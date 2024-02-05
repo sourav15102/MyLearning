@@ -18,3 +18,21 @@ public class Test {
 
 }
 ```
+
+Reduce:
+```java
+//reduce(T identity, BinaryOperator<T> accumulator)
+T result = identity;
+     for (T element : this stream)
+         result = accumulator.apply(result, element)
+     return result;
+     
+public int sumContactsAgesUsingReduce(List<Contact> contacts) {
+   return contacts.stream()
+           .map(contact -> Period.between(contact.getBirthDate(), LocalDate.now()).getYears())
+           .reduce(0, (contactAge, otherContactAge) -> contactAge + otherContactAge);
+}
+```
+
+
+https://stackify.com/streams-guide-java-8/
