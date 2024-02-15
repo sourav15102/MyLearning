@@ -113,7 +113,7 @@ Problem Patterns where HEAP is used
 Theory: 
 1. [[Priority Queue]]
 2. [[K largest and k smallest pattern]]
-3. 
+3. [[1851]]** (pq and intervals)
 
 Questions:
 LC discussions: 

@@ -103,3 +103,6 @@ class SieveOfEratosthenes {
 > GCD and LCM: There is an important relation between GCD and LCM which is 
 > `GCD*LCM = multiplication of both numbers`.
 ### Questions:
+- [[73]]**
+- [[50]]*
+- [[43]]*

@@ -31,7 +31,7 @@
 - [[Math & Geometry]]
 - [[Modulo]]
 - **[[Patterns]]**
-- **[[Questions]]**
+- **[[My learnings/CP/Questions/Questions]]**
 - **Resources**
 	- [[Spanning Trees]]
 - [[Sliding Window]]

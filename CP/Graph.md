@@ -5,6 +5,7 @@ Link: https://cp-algorithms.com/graph/depth-first-search.html
 	- for shortest path: we need to check if current distance is better than proposed one or not.
 	- [[126]] (read comment in code here)
 	- [[0-1 BFS]]
+	- [[787]]**
 	- [[Multisource BFS]]
 		- [[542]]
 		- [[1020]]
@@ -72,7 +73,6 @@ LC:
 - Dij:
 - [[743]]
 - [[1976]]**
-- [[778]]
 - Min stops with K stops:
 - [[787]]
 - Graphs using Union-find:
@@ -86,8 +86,6 @@ LC:
 
 Pending:
 - [[332]]
-- [787]
+- [[787]]**
 - [[947]]
 - https://www.codingninjas.com/studio/problems/articulation-point_840708?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
-- 
-

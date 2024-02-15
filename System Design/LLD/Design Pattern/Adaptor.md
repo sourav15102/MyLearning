@@ -1,3 +1,8 @@
+https://www.digitalocean.com/community/tutorials/adapter-design-pattern-java
+
+There are two kinds:
+1. Class adaptor pattern
+2. Object adapter pattern
 ### Define
 **Adapter** is a structural design pattern that allows objects with incompatible interfaces to collaborate.
 
@@ -9,3 +14,4 @@ Our app only works with previous type of data, it is not recommended to make maj
 We can have an adaptor which will act as an intermediary between the application and API service, it will do all the work of conversions.
 ![[Pasted image 20230819210059.png]]
 
+### Two way adaptor:

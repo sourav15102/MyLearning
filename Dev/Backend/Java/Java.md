@@ -9,6 +9,8 @@
 - [[LinkedList]]
 - [[Map]]
 - [[Maven]]
+- [[Memory leaks]]
+- [[Optional Class]]
 - [[Priority Queue]]
 - [[QnA]]
 - [[Queue]]

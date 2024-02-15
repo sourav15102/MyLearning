@@ -1,0 +1,1 @@
+https://newsletter.systemdesigncodex.com/p/strategies-to-share-code-between-services

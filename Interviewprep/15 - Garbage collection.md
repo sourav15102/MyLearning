@@ -207,3 +207,5 @@ A:
 ```
 
 
+Q: handle Memory leaks:
+A: [[Memory leaks]]

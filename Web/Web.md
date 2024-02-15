@@ -10,7 +10,7 @@
 - [[Port]]
 - [[Private IP address]]
 - [[Public IP address]]
-- [[Questions]]
+- [[My learnings/Web/Questions]]
 - [[REST]]
 - [[Router]]
 - [[Server]]

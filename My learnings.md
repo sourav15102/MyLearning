@@ -43,10 +43,10 @@
 	- [[29 - Cloud]]
 	- [[30 - OOPs]]
 	- [[Java]]
-	- [[Last Day]]
 	- [[Misc]]
 	- [[Pending]]
 	- **Resume**
+		- [[31 - Deadlocks]]
 		- [[Maven]]
 - **[[Misc Learnings]]**
 - [[README]]

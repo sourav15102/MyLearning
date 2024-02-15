@@ -70,10 +70,13 @@ Types:
 	1. Where A has direct access (read/modify) of entity of other service.
 
 ##### Side Car Pattern
+https://newsletter.systemdesigncodex.com/p/this-pattern-saves-a-gazillion-hours
 Pattern to move from monolith to microservice.
 We can have a separate smaller component, language agnostic, which can handle different stuff and help the legacy application.
 For ex:
 1. Legacy app accepts http, we want https, we can have side car act as proxy to accept https, and then it can divert data to http.
 2. We can have a new feature, we can have side car as a new component.
+
+
 
 ##### Event Sourcing
