@@ -33,5 +33,5 @@
 	- QPS for write is b, then `b*OZ`.
 
 ##### Step 5: CAP tradeoff
-
+- 
 

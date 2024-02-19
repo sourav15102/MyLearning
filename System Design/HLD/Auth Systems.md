@@ -57,6 +57,12 @@ A: Yes, storing a JWT token in a cookie can introduce security risks, including 
     - This prevents client-side scripts (JavaScript) from accessing the cookie, reducing the risk of token theft via XSS.
 (The `HttpOnly` flag is an attribute that can be set on an HTTP cookie. When this flag is present, it instructs the browser that the cookie should not be accessed by client-side scripts, limiting its exposure to potential security risks such as Cross-Site Scripting (XSS) attacks.)
 
+Q: why token based is stateless and cookies are not?
+A:
+Token-based authentication is typically considered stateless because the server does not need to store any session state for the client. Each request from the client includes a token (such as a JSON Web Token or JWT) containing the necessary information for authentication and authorization. The server validates the token and, if valid, processes the request accordingly. Since the server does not need to maintain any session state, it can easily scale and handle a large number of clients without the overhead of session management.
+
+On the other hand, cookies are often associated with session-based authentication. When a user logs in using a username and password, the server creates a session for that user and stores session information on the server side, typically in a database or memory store. A session identifier (often stored in a cookie) is sent to the client, which includes a reference to the session data stored on the server. Subsequent requests from the client include the session identifier, allowing the server to retrieve the corresponding session data and maintain the user's state across requests.
+
 [[XSS]]:
 
 ### OAuth (https://www.youtube.com/watch?v=ZDuRmhLSLOY)

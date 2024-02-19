@@ -78,5 +78,13 @@ For ex:
 2. We can have a new feature, we can have side car as a new component.
 
 
+#### CQRS:
+https://martinfowler.com/bliki/CQRS.html
+CQRS stands for **Command Query Responsibility Segregation**.
+The change that CQRS introduces is to split that conceptual model into separate models for update and display, which it refers to as Command and Query respectively
 
-##### Event Sourcing
+![](https://martinfowler.com/bliki/images/cqrs/cqrs.png)
+
+By separate models we most commonly mean different object models, probably running in different logical processes, perhaps on separate hardware. 
+
+The in-memory models may share the same database, however they may also use separate databases. In this case there needs to be some communication mechanism between the two models or their databases.

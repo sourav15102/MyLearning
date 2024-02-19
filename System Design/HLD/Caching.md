@@ -29,7 +29,7 @@ See your data as an object, similar to what you do with your application code. H
 reference: https://github.com/donnemartin/system-design-primer#cache
 ```
 
-Caching patterns: https://www.enjoyalgorithms.com/blog/read-through-caching-strategy
+Caching patterns: https://newsletter.systemdesigncodex.com/p/database-caching-strategies
 1. Cache aside: application interacts with cache, cache doesnt interact with db
 	1. Under normal cases, the application checks value in cache, if hit then fine, but if miss, it fetches value from db, populates cache, and return.
 	2. load data **lazily**, that is, only when it is first read.

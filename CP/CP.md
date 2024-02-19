@@ -16,6 +16,7 @@
 	- [[Multisource BFS]]
 	- [[Prims]]
 	- [[Single-Single Shortest Path]]
+	- [[Steve Of Eroth]]
 - [[Array & hashing]]
 - [[Backtracking]]
 - [[Binary Search]]
@@ -31,7 +32,7 @@
 - [[Math & Geometry]]
 - [[Modulo]]
 - **[[Patterns]]**
-- **[[My learnings/CP/Questions/Questions]]**
+- **[[Questions]]**
 - **Resources**
 	- [[Spanning Trees]]
 - [[Sliding Window]]

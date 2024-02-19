@@ -130,4 +130,6 @@ LC:
 
 Coding Ninja:
 1. [[Maximum Sum Combination]]**
-2. 
+
+Contest:
+- [[3044. Most Frequent Prime]]*

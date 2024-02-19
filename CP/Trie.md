@@ -188,6 +188,10 @@ LeetCode:
 2. [[14]] **
 3. [[212]]** (Trie and Backtracking)
 
+Contest:
+- [[100229. Find the Length of the Longest Common Prefix]]
+- [[3045. Count Prefix and Suffix Pairs II]]***
+
 
 ### Trie with bit operations:
 Link: https://www.youtube.com/watch?v=5iyuU4hQFrw&list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp&index=9&ab_channel=takeUforward
