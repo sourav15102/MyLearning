@@ -3,10 +3,14 @@
 - [[49]]
 - [[1]]
 - [[242]]
-- [[347]]
-- [[128]] --> [[Union Find]]
+- [[347]]*
+- [[128]] --> [[Union Find]]*
 - [[11]] --> *
 - [[15]]
 - [[169]] **
 - [[229]] **
 - [[Decrypt Message]]
+- [[Count Inversions]]** COMMENT
+- [[Two Sum III]]**
+- [[Move To Front]]
+- [[Min Swaps]]

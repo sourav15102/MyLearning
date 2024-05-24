@@ -5,20 +5,29 @@
 	3. use of recursion.
 		1. for example: merge lists
 	4. Merge Node in list.
+		```java
+		private void merge(ListNode f, ListNode s){
+	        if(f==null){
+	            return s;
+	        }
+	        f.next = merge(s, f.next);
+	        return f;
+	    }
+		```
 - [[Floyd’s Cycle detection or Hair Tortoise algorithm]]
 	- Need to start both pointers from head.
 
 ### Questions:
-- [[143]] `[1],[2], [3]`
+- [[143]] `[1],[2], [3]` *
 - [[234]]
-- [[21]] `[3]`
-- [[2]] 
-- [[24]] `[3]`
+- [[21]] `[3]`*
+- [[2]] *
+- [[24]] `[3]`*
 - [[25]] `[1]`
 - [[86]]
 - [[138]] - {use map for it}
 - [[287]] (floyd)
-- [[622 1]] (can skip, just take a read)
-- [[147]] (merge node in list)
-- [[146]] (LRU)
-- [[328]]*
+- [[622]] (can skip, just take a read)
+- [[147]] (merge node in list) *
+- [[146]] (LRU) **
+- [[328]]**

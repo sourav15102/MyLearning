@@ -36,6 +36,13 @@ Actors:
 6. Ticket
 7. Payment System
 
+Non-Functional Reqs:
+1. Scalable
+2. Flexible
+3. Reliable
+4. [[Concurrency]]
+
+
 Flow:
 1. There can be strategy pattern for:
 	1. Check in system : diff strategies for finding spot.

@@ -1,4 +1,4 @@
-It is used to find the longest common substring.
+It is used to find the longest palindromic substring.
 
 ### O(n^2)
 Intuition: We can consider each element as center and expand from there to find the palindrome for that center and choose the longest one. (this is for odd length palindromes).

@@ -31,18 +31,15 @@ Monotnic Queue:
 ```
 
 
-### Quick Questions:
+### Questions:
 1. [[1358]]
 2. [1343](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
 3. [[3]]
-4. [[76]]
+4. [[76]]*
 5. [[424]]
-6. [[438]]
-7. [[239]]
-8. [[1838]]
-9. [[1888]]
+6. [[438]]*
+7. [[239]]*
+8. [[1838]]**
+9. [[1888]]**
 10. [[567]]
-11. 
-
-### Questions:
 

@@ -3,7 +3,7 @@
 - [[Availability vs Reliability]]
 - **AWS**
 	- [[Connecting to IGW]]
-	- [[Database]]
+	- [[My learnings/Cloud/AWS/Database]]
 	- [[DynamoDB]]
 	- [[EC2]]
 	- [[Federated User]]

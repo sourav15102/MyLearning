@@ -113,7 +113,7 @@ Problem Patterns where HEAP is used
 Theory: 
 1. [[Priority Queue]]
 2. [[K largest and k smallest pattern]]
-3. [[1851]]** (pq and intervals)
+3. [[Queue]]
 
 Questions:
 LC discussions: 
@@ -127,6 +127,9 @@ LC:
 4. [[621]] (Task Scheduler)
 5. [[355]]
 6. [[295]]**
+7. [[1851]]** (pq and intervals)
+8. [[950]]*
+9. [[2073]]**
 
 Coding Ninja:
 1. [[Maximum Sum Combination]]**

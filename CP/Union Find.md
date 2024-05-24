@@ -1,18 +1,19 @@
 ```java
-static int find(int parent[], int i)
-{
-    if (parent[i] == -1)
-        return i;
-    return find(parent, parent[i]);
-}
-   
-// Naive implementation of union()
-static void Union(int parent[], int x, int y)
-{
-    int xset = find(parent, x);
-    int yset = find(parent, y);
-    parent[xset] = yset;
-}
+private int find(int x, int[] p){
+        if(x==p[x]){
+            return x;
+        }
+        return find(p[x],p);
+    }
+    private void union(int x, int y, int[] p, int[] r){
+        if(r[x]<r[y]){
+            p[x] = y;
+            r[y] += r[x];
+        }else{
+            p[y] = x;
+            r[x] += r[y];
+        }
+    }
 ```
 
 Optimized:
@@ -22,4 +23,4 @@ LC:
 1. [[684]]
 2. [Find connected components](https://leetcode.ca/all/323.html)
 3. [Graph valid tree](https://leetcode.ca/all/261.html)
-4. 
+4. [[2092]]**

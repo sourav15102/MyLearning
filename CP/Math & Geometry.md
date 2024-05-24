@@ -106,3 +106,5 @@ class SieveOfEratosthenes {
 - [[73]]**
 - [[50]]*
 - [[43]]*
+- [[342]]
+- 

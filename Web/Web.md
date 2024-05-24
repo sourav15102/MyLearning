@@ -1,7 +1,7 @@
 %% Begin Waypoint %%
 - [[Basics]]
 - [[Firewall]]
-- [[HTTP]]
+- [[My learnings/Web/HTTP]]
 - [[Latency vs Throughput]]
 - [[NAT]]
 - [[NIC]]

@@ -23,3 +23,9 @@ Invalidation
 Stale Data
 - Similar to a cache, the data in a stateless token can **“go stale”**.
 - For example, it can mean that somebody has a token with the role of “admin” even though you may have revoked their “admin role”. Since there’s no easy way to invalidate a token, you may find it hard to remove their administrator access reliably.
+
+- **Bearer Token**:
+    - A bearer token is a type of access token that is included in the request header to authenticate the identity of the user making the request.
+    - In the context of JWT, the JWT itself serves as the bearer token. It is passed along with the HTTP requests as an authorization mechanism.
+    - The term "bearer" indicates that whoever possesses the token can access the protected resources, similar to how a bearer of a physical token can use it to access certain facilities or services.
+    - For example, in an HTTP request header, a bearer token might look like this: `Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c`.

@@ -603,6 +603,9 @@ No, we cannot declare an interface as final because the interface must be implem
 A:
 No, Abstract methods cannot have body, hence needs to be overridden.
 
+Q: Can an abstract class have a constructor?**
+A: Yes, it can, but class cant be instantiated directly.
+
 **Q: main method things**
 A: 
 - We CANNOT change anything about main method EXCEPT the name of argument.
@@ -762,3 +765,9 @@ class Test2 {
     }
 }
 ```
+
+Q: Purpose of creating the Java Stream API
+A: 
+1. Functional programming
+2. Pipelining: intermediate + terminal operations
+3. Lazy evaluation

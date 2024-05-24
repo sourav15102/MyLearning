@@ -12,22 +12,7 @@ Link: https://cp-algorithms.com/graph/depth-first-search.html
 	- General rule of thumb: when putting x's children into queue, make them visited before putting them in queue, so you dont end up with duplicate values in queue.
 1. DFS
 	1. [[DFS CAUTION]]
-2. Connected components: [[Discovery vs Lowest time]]
-	3. Find bridges: https://cp-algorithms.com/graph/bridge-searching.html
-		1. offline: (Tarjan's algorithm) [[1192]] *an imp note here*
-	4. SCC: [[Kosaraju]]
-	5. [[Articulation]] (Trajan's Algo)
-	6. Strong orientation
-3. Cycle detection
-	1. [[207]]** cycle in directed graph.
-	2. [[Eulerian path and circuits]]
-	3. Negative cycle: [[Bellman Ford]] & [[Floyd Warshall Algorithm]]
-	4. Undirected graph, **Union find and dfs**
-		1. Property: if `no. of nodes == no. of edges`, then there is bound to be a cycle. 
-		2. [[684]]
-4. Topological sort [[210]]*
-5. Bipartite graph [[785]]
-6. Paths
+2. Paths
 	1. [[Dijkstra]] 
 		1. Read 'Important points' inside here.
 		2. Read 'Using lambda' inside [[Comparator Function]]
@@ -35,14 +20,29 @@ Link: https://cp-algorithms.com/graph/depth-first-search.html
 	3. [[Single-Single Shortest Path]]
 	4. [[Floyd Warshall Algorithm]] (All Pair Shortest Algorithm)
 		1. [[1334]]
-7. [[Spanning Trees]]
+3. Cycle detection
+	1. [[207]]** cycle in directed graph.
+	2. [[Eulerian path and circuits]]
+	3. Negative cycle: [[Bellman Ford]] & [[Floyd Warshall Algorithm]]
+	4. Undirected graph, **Union find and dfs**
+		1. Property: if `no. of nodes == no. of edges`, then there is bound to be a cycle. 
+		2. [[684]]
+5. Topological sort [[210]]*
+4. Connected components: [[Discovery vs Lowest time]]
+	3. Find bridges: https://cp-algorithms.com/graph/bridge-searching.html
+		1. offline: (Tarjan's algorithm) [[1192]] *an imp note here*
+	4. SCC: [[Kosaraju]]
+	5. [[Articulation]] (Trajan's Algo)
+	6. Strong orientation
+5. Bipartite graph [[785]]
+6. [[Spanning Trees]]
 	1. [[Prims]]
 	2. [[Kruskal]]
-8. Dynamic Graph using union find
+7. Dynamic Graph using union find
 	1. [[352]]**
 	2. [[827]]**
-9. [[Second Best MST]]
-10. Flow Algorithms
+8. [[Second Best MST]]
+9. Flow Algorithms
 
 > Alternative to mark something as visited via `boolean[]` we can use a HashSet instead. 
 

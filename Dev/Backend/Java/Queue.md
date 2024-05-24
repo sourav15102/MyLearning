@@ -38,6 +38,8 @@ For stack:
 - pollLast: from tail
 - pop(): delete from head adn return.
 
+![[Pasted image 20240411133848.png]]
+
 https://www.baeldung.com/java-array-deque
 ```java
 // 3.1 Using ArrayDeque as a Stack

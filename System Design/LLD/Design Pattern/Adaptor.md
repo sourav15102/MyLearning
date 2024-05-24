@@ -14,4 +14,7 @@ Our app only works with previous type of data, it is not recommended to make maj
 We can have an adaptor which will act as an intermediary between the application and API service, it will do all the work of conversions.
 ![[Pasted image 20230819210059.png]]
 
-### Two way adaptor:
+Adaptor vs Proxy:
+- Purpose of both is different, proxy acts as same object and does some preprocessing before calling actual service, whereas adaptor is used to make both client and service compatible.
+- Proxy and actual service extend same base interface.
+- Above is not true for Adaptor design pattern.

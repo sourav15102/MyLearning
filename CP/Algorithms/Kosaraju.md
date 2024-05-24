@@ -21,12 +21,16 @@ Let’s show an example to support our algorithm:
 
 We will begin DFS at 0 on the above graph and traverse every outgoing edge from each node that is unvisited. For visiting information we will make a visited array, and we should also maintain a stack to store the nodes in the order of which we exhausted their outgoing edges. Now we will see the result:
 
+(basically SIMILAR to topological order starting from 0)
+
 ![image](https://images.contentful.com/piwi0eufbb2g/3ClZTtAmFjkwFR2jFmkUiv/56e7fa90f1eef283e2cc9e7eb4e1e3bc/image.png)
+**(Right Most is the TOP)**
 
 Now we pop the stack one by one and do DFS on the modified/traversed graph while popping nodes. At the end of each successful DFS we will have an SCC.
 
-Now go ahead and perform this. For the sake of the article I won’t be illustrating it (might take too many pages), I will just show the final result. Here you’ll see each SCC colored differently. We will do the steps the same as the previous one, but the next node to traverse will be given by stack. Ignore those stack elements which have already been considered in previous SCCs.
+Now go ahead and perform this. For the sake of the article I won’t be illustrating it,  Here you’ll see each SCC colored differently. We will do the steps the same as the previous one, but the next node to traverse will be given by stack. Ignore those stack elements which have already been considered in previous SCCs.
 
 ![image](https://images.contentful.com/piwi0eufbb2g/1TE2fX2imobJziKfSHRdF8/83f5a74f7bccfee976af2e635844226d/image.png)
 
 
+> Note: basically, it is like, first who can be reached out to by 0 and then reverse it and who can reach out to 0 back.

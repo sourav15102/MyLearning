@@ -13,6 +13,7 @@
 			- [[Microservices -Intro]]
 		- **Rust**
 		- **Spring**
+			- **Spring Security**
 	- **Frontend**
 		- **[[JavaScript-Main]]**
 		- [[JSX]]
@@ -49,6 +50,7 @@
 		- [[31 - Deadlocks]]
 		- [[Maven]]
 - **[[Misc Learnings]]**
+- [[Plan]]
 - [[README]]
 - **Resources**
 

@@ -1,3 +1,6 @@
+**https://www.youtube.com/watch?v=qrAub5z8FeA&t=624s**
+**Watch till 7:00**
+
 The terms "discovery time" and "lowest time" are commonly associated with the depth-first search (DFS) traversal of graphs, particularly in the context of finding articulation points and bridges in the graph. Let's understand the significance of these concepts:
 
 1. **Discovery Time:**

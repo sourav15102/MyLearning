@@ -19,7 +19,7 @@ ISPs connect to the internet through one or more upstream providers or Internet 
 
 To connect to the internet, an ISP typically needs to have its own network infrastructure, including routers, switches, and other networking equipment, as well as connections to one or more upstream providers or IXPs. These connections are typically made using high-speed data links, such as fiber optic cables or dedicated leased lines, which provide the necessary bandwidth to support large volumes of internet traffic.
 
-1. [[HTTP]]
+1. [[My learnings/Web/HTTP]]
 2. [[REST]]
 3. [[Websockets]]
 4. [[Firewall]]

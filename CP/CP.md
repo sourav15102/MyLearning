@@ -34,9 +34,10 @@
 - **[[Patterns]]**
 - **[[Questions]]**
 - **Resources**
+	- [[Sort Guide]]
 	- [[Spanning Trees]]
 - [[Sliding Window]]
-- [[Stack]]
+- [[Stack-Queue]]
 - **Tree**
 	- [[Binary Tree]]
 	- [[Segment Tree]]

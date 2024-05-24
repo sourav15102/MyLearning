@@ -1,4 +1,74 @@
+https://www.youtube.com/watch?v=OuNOyFg942M&list=PL6W8uoQQ2c61X_9e6Net0WdYZidm7zooW&index=31
+https://www.youtube.com/watch?v=upfrQvOgC24&list=PL6W8uoQQ2c61X_9e6Net0WdYZidm7zooW&index=32
 
+Double Locking:
+```java
+public class DoubleLockingSingleton {
+    // Private static variable to hold the single instance of the class
+    private static volatile DoubleLockingSingleton instance;
+
+    // Private constructor to prevent instantiation from outside
+    private DoubleLockingSingleton() {
+    }
+
+    // Public static method to get the single instance of the class
+    public static DoubleLockingSingleton getInstance() {
+        // Check if the instance is null
+        if (instance == null) {
+            // Synchronize to ensure thread safety
+            synchronized (DoubleLockingSingleton.class) {
+                // Double check if instance is still null inside synchronized block
+                if (instance == null) {
+                    // Create a new instance
+                    instance = new DoubleLockingSingleton();
+                }
+            }
+        }
+        // Return the single instance
+        return instance;
+    }
+
+    // Other methods can be added here
+}
+```
+
+Two issues with double locking:
+1. For line: `instance = new DoubleLockingSingleton();`, the compiler can do re-ordering of statements where instance might get assigned memory block but memory block doesnt have data.
+2. If there are two cores, and two caches, so generally, `instance` might get assigned to one of the caches and another might try to read from cache 2, so, 2nd thread might think it is still null.
+
+Solution: Use volatile, cos it has 2 properties
+1. Volatile variables get directly dumped into memory not caches.
+2. all instructions written before volatile variable will stay before it and the ones after it, will stay after it, and all instructions before it will get dumped into memory.
+
+```java
+public class DoubleLockingSingleton {
+    // Private static volatile variable to hold the single instance of the class
+    private static volatile DoubleLockingSingleton instance;
+
+    // Private constructor to prevent instantiation from outside
+    private DoubleLockingSingleton() {
+    }
+
+    // Public static method to get the single instance of the class
+    public static DoubleLockingSingleton getInstance() {
+        // Check if the instance is null
+        if (instance == null) {
+            // Synchronize to ensure thread safety
+            synchronized (DoubleLockingSingleton.class) {
+                // Double check if instance is still null inside synchronized block
+                if (instance == null) {
+                    // Create a new instance
+                    instance = new DoubleLockingSingleton();
+                }
+            }
+        }
+        // Return the single instance
+        return instance;
+    }
+
+    // Other methods can be added here
+}
+```
 #### ***Why:***
 It serves two purpose:
 1. ensures class has just single instance.
