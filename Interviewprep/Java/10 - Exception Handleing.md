@@ -252,3 +252,25 @@ By DEFAULT, checked exceptions are not propagated.	- what it means is that:
 The instance variable a of class Calculation is initialized to 10 using the class constructor which is called while instantiating the class. The add method is called which returns an integer value result. In add() method, a is incremented by 10 to be 20. Then, in the first try block, 10 is again incremented by 10 to be 30. In the second try block, a is multiplied by 10 to be 300. The second try block throws the exception which is caught by the catch block associated with this try block. The catch block again alters the value of a by decrementing it by 10 to make it 290. Thus the add() method returns 290 which is assigned to result. However, the catch block associated with the outermost try block will never be executed since there is no exception which can be handled by this catch block.
 
 
+Q: NoClassDefFoundError vs ClassNotFoundException
+A:
+###### ClassNotFoundException
+Definition:
+- `ClassNotFoundException` is an exception that is thrown when an application tries to load a class by its name using `Class.forName()`, `ClassLoader.findSystemClass()`, or `ClassLoader.loadClass()` and the class with the specified name cannot be found.
+When it Occurs:
+- **Checked Exception**: This is a checked exception that occurs during the execution of dynamic class loading operations.
+- **Class Loading**: It typically occurs when the class loader cannot locate the class in the classpath at the time of the class loading request.
+
+###### NoClassDefFoundError
+Definition:
+- `NoClassDefFoundError` is an error that occurs when the Java Virtual Machine (JVM) or a ClassLoader instance tries to load a class and the class definition is not found.
+ When it Occurs:
+- **Runtime Error**: This error occurs at runtime when a class was present at compile time but is missing during runtime.
+- **Linking Error**: It often occurs when the class is not available due to changes in the classpath, missing JAR files, or issues in the deployment.
+
+Differences:
+**Timing**:
+- `NoClassDefFoundError`: Occurs at runtime when a class that was available at compile time is not found, it means it was present in build path but not in classpath.
+- `ClassNotFoundException`: Occurs during runtime when a class is attempted to be dynamically loaded and is not found in the classpath.
+
+

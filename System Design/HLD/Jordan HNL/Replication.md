@@ -40,7 +40,7 @@ Resolve Conflicts:
 3. On read
 	1. DB keep both writes, but while reading at user end we merge, like shopping cart.
 4. On write
-	1. DB keep both and merge them while writing using some function, which needs to be commutative (order of updates doesnt matter), associative (grouping of changes doesnt matter)
+	1. DB keep both and merge them while writing using some function, which needs to be commutative (order of updates doesnt matter), associative (grouping of changes doesnt matter), we can use Conflict resolution data type (CRDT).
 
 ### Concurrent writes:
 

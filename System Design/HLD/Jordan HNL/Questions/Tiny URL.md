@@ -1,8 +1,13 @@
 https://www.youtube.com/watch?v=5V6Lam8GZo4&list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV&index=1
+
+and 
+
+https://youtu.be/YN7hCvBOFxk?t=1545
+
 Steps:
 1. We cannot do monotonically increasing numbers for urls, cos, that would require the locking on that number, hence making the 'assigning of tiny url' process slow.
 2. We can assume 0-9 and a-z characters and 8 size hash value, giving us 2 trillion slots available, assuming we will have 1 trillion urls, 2 should be enough.
-3. But what happens in case of clashing, we can look for next hash, for example if it 'X' hash, we will start looking for 'X+1' and so on, until we get the empty place.
+3. But what happens in case of clashing, we can look for next hash, for example if it 'X' hash, we will start looking for 'X+1' and so on, until we get the empty place. This is called Probing.
 4. Optimize: writes, reads, analytics, expired urls
 5. Now to decide database:
 	1. Replication
@@ -43,3 +48,48 @@ Steps:
 Questions: 
 1. For spark streaming is int only one consumer and one message broker and can be bottleneck, and even if we add more, cant one click go to both message brokers and then their consumers can add them up twice.
 2. What if  DB fails to ACK  to spark streaming (the consumer) that we have added 100 clicks, it consumer would try to add that 100 rows once more
+
+
+# Algorithm REST Endpoints
+
+Let’s starts by making two functions accessible through REST API:
+
+> **create(** long_url, api_key, custom_url**)**
+> 
+> POST  
+> Tinyrl : POST : [https://tinyurl.com/app/api/create](https://tinyurl.com/app/api/create)  
+> Request Body: {url=long_url}  
+> Return OK (200), with the generated short_url in data
+
+long_url: A long URL that needs to be shortened.
+
+api_key: A unique API key provided to each user, to protect from the spammers, access, and resource control for the user, etc.
+
+custom_url_(optional)_: The custom short link URL, user want to use.
+
+**Return Value:** The short Url generated, or error code in case of the inappropriate parameter.
+
+> GET: /{short_url}  
+> Return a http redirect response(302)
+
+**Note** : “HTTP 302 Redirect” status is sent back to the browser instead of “HTTP 301 Redirect”. A **301** redirect means that the page has permanently moved to a new location. A **302** redirect means that the move is only temporary. Thus, returning 302 redirect will ensure all requests for redirection reaches to our backend and we can perform analytics (Which is a functional requirement)
+
+short_url: The short URL generated from the above function.
+
+**Return Value:** The original long URL, or invalid URL error code.
+
+
+Capacity estimation:
+https://medium.com/@sandeep4.verma/system-design-scalable-url-shortener-service-like-tinyurl-106f30f23a82
+Traffic
+Storage
+Memory
+
+If we need fix length:
+1. Custom hash function: like 6 characters, and a-z, 0-9 (36), might have clashes, need to handle those (Cant have multi master replication model).
+2. multiple servers will reach out to counter service, ask it for transaction and get 1-100 counters from it (it means 1-100 from a-z,A-Z,0-9 6 character pool).
+3. Key generation service.
+4. Zookeeper to maintain counter (same as Pt. 2)
+
+No length contraint:
+1. MD5 = 128 bit, then base64 encoding (each character 6 bits so 21 characters).

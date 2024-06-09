@@ -16,3 +16,5 @@ Materialized view:
 Data cube: just another type of materialized view where it precalculates the values in many dimensions.
 
 Overview: Companies can dump a lot of unstructured data in lets say HDFS or Apache Spark and we can run batch processing on that unstructured data to get useful insights.
+
+

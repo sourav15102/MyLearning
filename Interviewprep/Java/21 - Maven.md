@@ -1,4 +1,4 @@
-- [[My learnings/Interviewprep/Resume/Maven]]
+- [[My learnings/Interviewprep/Maven]]
 
 Maven is a project management tool. It is based on POM (Project Object Model).
 

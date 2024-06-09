@@ -174,6 +174,9 @@
 		- [[3044. Most Frequent Prime]]
 		- [[3045. Count Prefix and Suffix Pairs II]]
 		- [[100229. Find the Length of the Longest Common Prefix]]
+	- **399**
+		- [[3164]]
+		- [[3165]]
 - [[Count Inversions]]
 - [[Decrypt Message]]
 - [[Meeting Rooms II]]

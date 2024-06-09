@@ -771,3 +771,4 @@ A:
 1. Functional programming
 2. Pipelining: intermediate + terminal operations
 3. Lazy evaluation
+

@@ -16,3 +16,28 @@ Non-relational Database:
 4. Schemeless: flexible
 5. A lot of data duplication, when there are relations between data.
 6. Solution: Graph DB, can be used in case of many relations.
+
+
+- [[CouchDB]]
+	- Document oriented
+	- Multi leader replication
+- Couchbase server
+	- Document oriented
+	- Multi leader replication
+- Cassandra
+	- Wide column
+	- Leaderless replication
+	- Handles conflicts by LWW: last write wins
+- Raik
+	- Key Value store
+	- Leaderless replication
+	- Handles conflicts by CRDT: conflict resolution data type
+- MySQL
+	- Supports transactions
+	- Single leader replication
+- Mongo
+	- NoSQL
+	- Document oriented
+	- Supports transactions
+	- Single leader replication
+- HBase

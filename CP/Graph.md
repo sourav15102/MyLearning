@@ -1,6 +1,6 @@
 Link: https://cp-algorithms.com/graph/depth-first-search.html
 ### Theory:
-1. BFS
+1. [[BFS]]
 	1. when distances are same, bfs can be used to see if path exists or whats the shortest distance or even how many shortest or al paths exist.
 	- for shortest path: we need to check if current distance is better than proposed one or not.
 	- [[126]] (read comment in code here)
@@ -55,7 +55,7 @@ Coding Ninjas:
 LC:
 - [[133]]
 - [[127]]**
-- [[126]]**
+- [[126]]***
 - [[785]]**
 - [[417]]*
 - [[130]]
@@ -83,6 +83,7 @@ LC:
 - [[1319]]**
 - Eulerian
 - [[332]]
+- [[1192]]
 
 Pending:
 - [[332]]

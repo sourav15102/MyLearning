@@ -8,7 +8,7 @@
 - [[Lambda]]
 - [[LinkedList]]
 - [[Map]]
-- [[Maven]]
+- [[My learnings/Dev/Backend/Java/Maven]]
 - [[Memory leaks]]
 - [[Optional Class]]
 - [[Priority Queue]]

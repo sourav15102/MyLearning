@@ -1,4 +1,5 @@
 %% Begin Waypoint %%
+- [[BFS]]
 - [[Biggest smaller than ith index - BST]]
 - [[Comparator Function]]
 - [[DFS CAUTION]]

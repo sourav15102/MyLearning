@@ -1,7 +1,64 @@
 https://www.youtube.com/watch?v=OuNOyFg942M&list=PL6W8uoQQ2c61X_9e6Net0WdYZidm7zooW&index=31
 https://www.youtube.com/watch?v=upfrQvOgC24&list=PL6W8uoQQ2c61X_9e6Net0WdYZidm7zooW&index=32
+### Eager Initialization
+Eager initialization creates the Singleton instance at the time of class loading. This method ensures thread safety and simplicity but may lead to resource wastage if the instance is never used.
 
-Double Locking:
+```java
+public class Singleton {
+    private static final Singleton instance = new Singleton();
+
+    private Singleton() {}
+
+    public static Singleton getInstance() {
+        return instance;
+    }
+}
+```
+### Why Eager Initialization Doesn't Solve Lazy Issues
+
+Eager initialization creates the instance at the time of class loading, which guarantees thread safety but may result in unnecessary resource usage if the instance is never utilized. Lazy initialization, on the other hand, creates the instance only when it is needed, which can conserve resources but requires careful handling to ensure thread safety.
+
+### Cons of Eager Initialization
+
+1. **Resource Usage**: The instance is created even if it is never used, which can be inefficient in terms of memory and processing.
+2. **Performance Overhead**: The creation of the instance at class loading time can slow down the application startup.
+### Lazy Initialization
+Lazy initialization delays the creation of the Singleton instance until it's needed. However, this approach is not thread-safe.
+
+```java
+public class Singleton {
+    private static Singleton instance;
+
+    private Singleton() {}
+
+    public static Singleton getInstance() {
+        if (instance == null) {
+            instance = new Singleton();
+        }
+        return instance;
+    }
+}
+```
+
+### Synchronized Method
+To make lazy initialization thread-safe, the `getInstance` method can be synchronized. This ensures only one thread can access the method at a time, but it can lead to performance issues.
+
+```java
+public class Singleton {
+    private static Singleton instance;
+
+    private Singleton() {}
+
+    public static synchronized Singleton getInstance() {
+        if (instance == null) {
+            instance = new Singleton();
+        }
+        return instance;
+    }
+}
+```
+
+### Double Locking:
 ```java
 public class DoubleLockingSingleton {
     // Private static variable to hold the single instance of the class
