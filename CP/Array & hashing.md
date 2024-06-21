@@ -9,6 +9,8 @@
 - [[15]]
 - [[169]] **
 - [[229]] **
+- [[974]]**
+- [[330]]**
 - [[Decrypt Message]]
 - [[Count Inversions]]** COMMENT
 - [[Two Sum III]]**

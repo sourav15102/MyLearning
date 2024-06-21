@@ -1,4 +1,5 @@
 %% Begin Waypoint %%
+- [[Chart]]
 - **Design Pattern**
 	- [[Abstract Factory]]
 	- [[Adaptor]]
@@ -38,7 +39,17 @@
 	- [[Inventory Management System]]
 	- [[Logger]]
 	- [[Method]]
-	- [[Parking Lot]]
+	- **[[Parking Lot]]**
+		- **ParkingLot**
+			- **src**
+				- **main**
+					- **java**
+						- **org**
+							- **example**
+
+					- **resources**
+				- **test**
+					- **java**
 	- [[Snake n Ladder]]
 	- [[Splitwise]]
 	- [[Vending Machine]]

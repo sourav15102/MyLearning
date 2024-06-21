@@ -130,7 +130,7 @@ Sure, here are detailed answers to each question from the image:
     - **Shallow Cloning**: Creates a new object and copies the references of the fields from the original object to the new object. The new object and the original object share the same references to the nested objects.
     - **Deep Cloning**: Creates a new object and recursively copies all objects referenced by the original object, creating completely independent clones of the original object.
 
-13. **Why do we use readResolve in singletons?**:
+13. **Why do we use [readResolve](https://www.baeldung.com/java-serialization-readobject-vs-readresolve) in singletons?**:
     - The `readResolve` method is used in the context of serialization to ensure that the singleton property is maintained. It replaces the deserialized object with the singleton instance.
     ```java
     protected Object readResolve() {
@@ -156,7 +156,7 @@ Sure, here are detailed answers to each question from the image:
     ```
 
 18. **What will happen if you put the return statement or System.exit() on the try or catch block? Will finally block execute?**:
-    - If a `return` statement or `System.exit()` is called in the `try` or `catch` block, the `finally` block will still execute, unless `System.exit()` is called.
+    - If a `return` statement is called in the `try` or `catch` block, the `finally` block will still execute, unless `System.exit()` is called.
 
 19. **If a method throws NullPointerException in the superclass, can we override it with a method that throws RuntimeException?**:
     - Yes, since `NullPointerException` is a subclass of `RuntimeException`, you can override a method in the subclass to throw `RuntimeException`.
@@ -164,4 +164,4 @@ Sure, here are detailed answers to each question from the image:
 20. **Is it possible to load a class by two ClassLoaders?**:
     - Yes, it is possible to load the same class by different class loaders, which will result in two different class objects. This can lead to issues such as `ClassCastException`.
 
-These explanations should help you understand the concepts better. If you need more detailed examples or further clarification, feel free to ask!
+

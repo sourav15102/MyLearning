@@ -16,7 +16,7 @@ https://youtu.be/S2y9_XYOZsg?list=PLjTveVh7FakJOoY6GPZGWHHl4shhDT8iV
 	2. Calculate it for 100 years
 3. Memory:
 
-### Featuere
+### Feature:
 1. Followers/Following:
 Thoughts:
 1.
@@ -94,7 +94,7 @@ Optimal:
 Exception: Some of the users will have Million of followers.
 
  Hybrid Approach 1:
- - Basically the new fee service while calculating the news feed for a particular user id will go through its following list and for the verified followers it will directly reach out to the postdb and get the post from there and for the unverified followers it will go to the new feed cache.
+ - Basically the new feed service while calculating the news feed for a particular user id will go through its following list and for the verified followers it will directly reach out to the postdb and get the post from there and for the unverified followers it will go to the new feed cache.
 
  Hybrid Approach 2:
  - Some of the users have millions of followers so copying it with millions time will be very slow
@@ -116,7 +116,7 @@ Nested Comments:
 
 OR
 
--  Alternative is that we can use native craft databases where we can have a note basically a pointer and that can points to a children note and then to its grandchildren notes and so on.
+-  Alternative is that we can use native graph databases where we can have a note basically a pointer and that can points to a children note and then to its grandchildren notes and so on.
 - These databases tends to be a bit slower because the disc has to jump from 1 pointer to the another in a mechanical way.
 
 OR

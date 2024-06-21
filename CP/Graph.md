@@ -5,7 +5,7 @@ Link: https://cp-algorithms.com/graph/depth-first-search.html
 	- for shortest path: we need to check if current distance is better than proposed one or not.
 	- [[126]] (read comment in code here)
 	- [[0-1 BFS]]
-	- [[787]]**
+	- [[787]]***
 	- [[Multisource BFS]]
 		- [[542]]
 		- [[1020]]

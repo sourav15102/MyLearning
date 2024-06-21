@@ -3,11 +3,10 @@
 - [[Availability vs Reliability]]
 - **AWS**
 	- [[Connecting to IGW]]
-	- [[My learnings/Cloud/AWS/Database]]
+	- [[Database]]
 	- [[DynamoDB]]
 	- [[EC2]]
 	- [[Federated User]]
-	- [[General Facts]]
 	- [[Mount targets]]
 	- [[NAT Gateway]]
 	- [[Roles vs Policies vs STS vs Pre-signed URL]]
@@ -28,7 +27,7 @@
 	- [[Security Groups]]
 	- **Udemy**
 		- [[Intro]]
-		- [[My learnings/Cloud/Docker/Questions]]
+		- [[Questions]]
 	- [[VPC]]
 - [[Bastion hosts]]
 - **[[Docker]]**

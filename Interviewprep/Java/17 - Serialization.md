@@ -79,29 +79,56 @@ private void readObject(ObjectInputStream in)
 With these methods, we can serialize the unserializable attributes into other forms that we can serialize:
 
 ```java
-public class Employee implements Serializable {
+class Person implements Serializable {
     private static final long serialVersionUID = 1L;
     private transient Address address;
-    private Person person;
+    private transient Details details;
 
-    // setters and getters
-
-    private void writeObject(ObjectOutputStream oos) 
-      throws IOException {
-        oos.defaultWriteObject();
-        oos.writeObject(address.getHouseNumber());
+    public Address getAddress() {
+        return address;
     }
 
-    private void readObject(ObjectInputStream ois) 
-      throws ClassNotFoundException, IOException {
-        ois.defaultReadObject();
-        Integer houseNumber = (Integer) ois.readObject();
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
+    public Details getDetails() {
+        return details;
+    }
+
+    public void setDetails(Details details) {
+        this.details = details;
+    }
+
+    private void writeObject(ObjectOutputStream oos) throws IOException {
+        oos.defaultWriteObject(); // This line writes the non-static and non-transient fields.
+        oos.writeObject(address.getHouseNumber());
+        oos.writeObject(details.getInfo());
+        // The order here matters, should be same while reading 
+    }
+
+    private void readObject(ObjectInputStream ois) throws ClassNotFoundException, IOException {
+        ois.defaultReadObject(); 
+        Integer houseNumber = (Integer) ois.readObject(); 
+        String detailsInfo = (String) ois.readObject();
+		
         Address a = new Address();
         a.setHouseNumber(houseNumber);
         this.setAddress(a);
+
+        Details d = new Details();
+        d.setInfo(detailsInfo);
+        this.setDetails(d);
     }
 }
 ```
+
+> ### Deserialization (`readObject` method)
+1. `ois.defaultReadObject();` - This line reads the non-static and non-transient fields of the current object from the stream using the default mechanism.
+2. `Integer houseNumber = (Integer) ois.readObject();` - This line reads the next object from the stream, which should be the house number (an `Integer`), in the same order it was written.
+3. `String detailsInfo = (String) ois.readObject();` - This line reads the next object from the stream, which should be the details info (a `String`), again in the same order it was written.
+
+
 
 ```java
 public class Address {
