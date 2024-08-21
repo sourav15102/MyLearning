@@ -1,8 +1,8 @@
 
-- [[Kafka]]
+- [[My learnings/System Design/HLD/Kafka]]
 - [[Consistent Hashing]]
 - [[Heart-beat mechanism]]
-- [[Load Balancer]]
+- [[My learnings/System Design/HLD/Load Balancer]]
 - [[When to use Message queue]]
 
 ### Design Patterns:

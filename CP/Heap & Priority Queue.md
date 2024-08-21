@@ -130,6 +130,7 @@ LC:
 7. [[1851]]** (pq and intervals)
 8. [[950]]*
 9. [[2073]]**
+10. [[1508]]**
 
 Coding Ninja:
 1. [[Maximum Sum Combination]]**

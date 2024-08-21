@@ -1,4 +1,4 @@
-Link: https://cp-algorithms.com/graph/depth-first-search.html
+ Link: https://cp-algorithms.com/graph/depth-first-search.html
 ### Theory:
 1. [[BFS]]
 	1. when distances are same, bfs can be used to see if path exists or whats the shortest distance or even how many shortest or al paths exist.
@@ -19,7 +19,7 @@ Link: https://cp-algorithms.com/graph/depth-first-search.html
 	2. [[Bellman Ford]] (Can detect -ve cycle.)
 	3. [[Single-Single Shortest Path]]
 	4. [[Floyd Warshall Algorithm]] (All Pair Shortest Algorithm)
-		1. [[1334]]
+		1. [[1334]]**
 3. Cycle detection
 	1. [[207]]** cycle in directed graph.
 	2. [[Eulerian path and circuits]]

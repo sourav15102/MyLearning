@@ -11,8 +11,10 @@
 - [[229]] **
 - [[974]]**
 - [[330]]**
+- [[995]]** (Stack-Queue) 
 - [[Decrypt Message]]
 - [[Count Inversions]]** COMMENT
 - [[Two Sum III]]**
 - [[Move To Front]]
 - [[Min Swaps]]
+- [[1366]] (Sorting)***

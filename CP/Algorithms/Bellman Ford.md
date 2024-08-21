@@ -1,4 +1,4 @@
-https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/
+ https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/
 
 > Works for -ve weights.
 > Can detect -ve cycles.

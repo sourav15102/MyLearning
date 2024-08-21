@@ -1,3 +1,4 @@
+> Coordination service uses consensus algos to do their work
 ##### 2 Phase commit:
 We have a coordinator node and service nodes.
 1. Coordinator node first sends prepare broadcast message to all nodes.

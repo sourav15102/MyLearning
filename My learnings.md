@@ -48,6 +48,7 @@
 		- [[30 - OOPs]]
 		- [[31 - Deadlocks]]
 		- [[32 - Twitter]]
+		- [[33 - JAX-rS]]
 		- [[Maven]]
 		- [[Misc]]
 		- [[Multithreading]]
@@ -56,8 +57,7 @@
 		- [[Express]]
 		- [[Stored Procedure]]
 		- [[TS-JS]]
-	- **React**
-
+	- [[React]]
 	- **Spring**
 
 - **[[Misc Learnings]]**
@@ -69,6 +69,7 @@
 	- [[Design Index]]
 	- **[[HLD]]**
 	- **[[LLD]]**
+- [[Untitled]]
 - **[[Web]]**
 
 %% End Waypoint %%
