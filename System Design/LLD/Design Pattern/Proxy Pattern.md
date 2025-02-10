@@ -23,7 +23,7 @@ and then delegate the work to actual object when needed.
 1. for performing access checks.
 2. for logging
 
-[[Adaptor]] vs [[Proxy Pattern]]:
+[[Adapter Design Pattern]] vs [[Proxy Pattern]]:
 - Purpose of both is different, proxy acts as same object and does some preprocessing before calling actual service, whereas adaptor is used to make both client and service compatible.
 - Proxy and actual service extend same base interface.
 - Above is not true for Adaptor design pattern.

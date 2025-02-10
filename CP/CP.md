@@ -21,6 +21,7 @@
 - [[Backtracking]]
 - [[Binary Search]]
 - [[Bit Manipulation]]
+- [[Design]]
 - [[Dynamic Programming]]
 - [[Game Playing]]
 - [[Graph]]
@@ -37,10 +38,10 @@
 	- [[Sort Guide]]
 	- [[Spanning Trees]]
 - [[Sliding Window]]
+- [[SQL]]
 - [[Stack-Queue]]
-- **Tree**
+- **[[Tree]]**
 	- [[Binary Tree]]
-	- [[Segment Tree]]
 - [[Trie]]
 - [[Two Pointers]]
 - [[Union Find]]

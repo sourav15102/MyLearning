@@ -1,0 +1,1 @@
+Message brokers introduce eventual latency, in case where strong consistency is a must, message broker should be avoided.

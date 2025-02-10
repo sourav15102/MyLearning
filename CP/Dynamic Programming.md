@@ -16,6 +16,7 @@ LC:
 8. [[139]]
 9. [[300]]
 10. [[Paint House I]] --, [[Paint House II]], [[Paint House III]]
+11. [[1235]]
 
 2D Dp:
 1. [[309]]
@@ -27,6 +28,7 @@ LC:
 7. [[10]]**
 8. [[678]]**
 9. [[40]] (DP and BKTR)*
+10. [[1937]]
 
 
 Link: . https://leetcode.com/discuss/general-discussion/1050391/Must-do-Dynamic-programming-Problems-Category-wise

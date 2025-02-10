@@ -120,6 +120,10 @@ LC discussions:
 1. [1](https://leetcode.com/discuss/general-discussion/1127238/master-heap-by-solving-23-questions-in-4-patterns-category)
 2. [2](https://leetcode.com/discuss/general-discussion/1113631/important-concepts-problems-in-priority-queueheaps)
 
+Heap:
+1. [[378]]*
+2. [[373]]**
+
 LC:
 1. [[703]]
 2. [[1046]]
@@ -131,6 +135,7 @@ LC:
 8. [[950]]*
 9. [[2073]]**
 10. [[1508]]**
+11. [[767]]***
 
 Coding Ninja:
 1. [[Maximum Sum Combination]]**

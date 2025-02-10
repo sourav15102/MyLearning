@@ -6,7 +6,7 @@
    - Add the selected edge and the connected vertex to the tree.
 5. Terminate when the tree contains all vertices, forming the minimum spanning tree.
 
-
+   
 ### Code:
 ```java
 import java.util.*;

@@ -102,6 +102,213 @@ class SieveOfEratosthenes {
 
 > GCD and LCM: There is an important relation between GCD and LCM which is 
 > `GCD*LCM = multiplication of both numbers`.
+
+### Perfect Square 1 -> n 
+![[Pasted image 20250115132951.png]]
+> SO the number of integers between 1->n for which X^2 is < n is bs(1,n)
+
+```java
+class Solution {
+    private int sol(int x, int y, int n){
+        if(x>y){
+            return y;
+        }
+
+        int md = x+(y-x)/2;
+        if((n/md) < md){
+            return sol(x,md-1,n);
+        }else{
+            return sol(md+1,y,n);
+        }
+    }
+    public int bulbSwitch(int n) {
+        if(n==1 || n==0){
+            return n;
+        }
+        int a = 1;
+        int b = n;
+
+        return sol(a,b,n);
+    }
+}
+```
+
+### **1. Finding Divisors of a Number**
+#### **Problem**: Find all divisors of a number nn.
+- **Approach**: Use a loop up to n\sqrt{n}. For every number ii, if n%i==0n \% i == 0, ii and n/in/i are divisors.
+- 
+**Code**:
+
+```java
+import java.util.*;
+
+public class Divisors {
+    public static List<Integer> findDivisors(int n) {
+        List<Integer> divisors = new ArrayList<>();
+        for (int i = 1; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) {
+                divisors.add(i); // Add i
+                if (i != n / i) { // Add n/i only if it's distinct
+                    divisors.add(n / i);
+                }
+            }
+        }
+        Collections.sort(divisors); // Optional: To sort the divisors
+        return divisors;
+    }
+
+    public static void main(String[] args) {
+        int n = 28;
+        System.out.println("Divisors of " + n + ": " + findDivisors(n));
+    }
+}
+```
+
+**Output**:
+
+```
+Divisors of 28: [1, 2, 4, 7, 14, 28]
+```
+
+---
+### **2. Prime Number Check**
+#### **Problem**: Determine if a number is prime.
+- **Approach**: Check divisibility up to n\sqrt{n}.
+**Code**:
+
+```java
+public class PrimeCheck {
+    public static boolean isPrime(int n) {
+        if (n <= 1) return false;
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) return false;
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        int n = 29;
+        System.out.println(n + " is prime? " + isPrime(n));
+    }
+}
+```
+
+**Output**:
+
+```
+29 is prime? true
+```
+
+---
+### **6. Modular Exponentiation**
+
+#### **Problem**: Compute abmod  ma^b \mod m efficiently.
+
+- **Approach**: Use the **exponentiation by squaring** method.
+
+**Code**:
+
+```java
+public class ModularExponentiation {
+    public static int modExp(int a, int b, int m) {
+        int result = 1;
+        a = a % m;
+
+        while (b > 0) {
+            if ((b & 1) == 1) { // If b is odd
+                result = (result * a) % m;
+            }
+            a = (a * a) % m; // Square the base
+            b >>= 1; // Divide b by 2
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        int a = 2, b = 10, m = 1000;
+        System.out.println(a + "^" + b + " % " + m + " = " + modExp(a, b, m));
+    }
+}
+```
+
+**Output**:
+
+```
+2^10 % 1000 = 24
+```
+
+---
+
+### **7. Counting Factors**
+
+#### **Problem**: Count the number of factors of nn.
+
+- **Approach**: Iterate up to n\sqrt{n}, counting factors.
+
+**Code**:
+
+```java
+public class CountFactors {
+    public static int countFactors(int n) {
+        int count = 0;
+        for (int i = 1; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) {
+                count++; // Factor i
+                if (i != n / i) count++; // Factor n / i
+            }
+        }
+        return count;
+    }
+
+    public static void main(String[] args) {
+        int n = 36;
+        System.out.println("Number of factors of " + n + ": " + countFactors(n));
+    }
+}
+```
+
+**Output**:
+
+```
+Number of factors of 36: 9
+```
+
+---
+### **8. Combinatorics: nCr (Binomial Coefficient)**
+#### **Problem**: Compute (nr)=n!r!(n−r)!\binom{n}{r} = \frac{n!}{r!(n-r)!}.
+- **Approach**: Use iterative multiplication to avoid factorial overflow.
+**Code**:
+
+```java
+public class BinomialCoefficient {
+    public static int nCr(int n, int r) {
+        if (r > n) return 0;
+        if (r == 0 || r == n) return 1;
+
+        int result = 1;
+        for (int i = 1; i <= r; i++) {
+            result = result * (n - i + 1) / i;
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        int n = 5, r = 2;
+        System.out.println(n + " choose " + r + " = " + nCr(n, r));
+    }
+}
+```
+
+**Output**:
+
+```
+5 choose 2 = 10
+```
+
+---
+
+These algorithms cover a range of math-related concepts frequently tested in interviews. Let me know if you’d like to explore any of these further!
+
 ### Questions:
 - [[73]]**
 - [[50]]*

@@ -12,4 +12,4 @@ private final boolean[] prime = new boolean[(int)1e6+1];
             }
         }
     }
-```
+```}

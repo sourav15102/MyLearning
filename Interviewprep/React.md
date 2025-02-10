@@ -44,6 +44,12 @@ JSX:
 syntax extension of Javascript, it allows us to write html like code
 ```
 
+strict-mode
+```
+it is used to make sure we dont use any deprecated methods, we will see some warnings if we do.
+if doubel-renders the component to be sure.
+```
+
 When react renders or re-render our app:
 ```
 1. It re-renders the component when the state of the component is completely different. (different state object)
@@ -54,7 +60,6 @@ When we click on button, and shallow merge of the state happens, it happens asyn
 
 2. When props change
 3. When parent component re-renders.
-4. Context changes
 ```
 
 ```js
@@ -164,6 +169,7 @@ class App extends Component {
 ```
 
 Lifecycles:
+https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 ```
 constructor: it always runs first, it is used to initalize the state
 ```
@@ -184,6 +190,38 @@ This function is called when the component is mounted on the DOM for the first t
 the only time, it will be called again if the component has been unmounted - compeltely removed from the DOM, i.e the new instance of component is here now..
 ```
 
-Props:
+Virtual DOM:
+```
+It is a JS Representation of Real Dom. It does that because making changes to the real DOM is quite expensive
+Process:
+First JS copy of real DOM is used as scnapshot.
+The seocnd one will be used to make real cahnges.
+Both will be compared to calc optimized way and then real DOM will be changed.
+then snapshot cope will be same as 2nd copy.
+```
+
+React vs React-DOM
+```
+React lib: It is an engine which does a lot of differeing, optimizaiton, what to render and how.
+React DOM: what to render too. // We can use react-native to render to mobile apps.
+(It is specific to the platform we are building for.)
+```
+
+DOM Flashing
+```
+DOM flashing is a term that refers to a visual flickering or flashing effect that can occur when the DOM (Document Object Model) is updated and the browser re-renders the page.
+```
+
+Reflow:
+```
+Reflow (also known as "layout reflow" or simply "layout") refers to the process the browser goes through to recalculate the position and size of elements in the DOM when changes occur.
+```
+
+Fragment
+```
+In React, a `Fragment` is a wrapper component that lets you group multiple elements without adding extra nodes to the DOM.
+```
+
+Props and forwardRef, Context:
 ```
 ```

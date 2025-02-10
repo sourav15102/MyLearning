@@ -1,4 +1,5 @@
  Link: https://cp-algorithms.com/graph/depth-first-search.html
+yelp, oracle, cgi, google, amazon, slalom, nomura, microsoft, airbnb
 ### Theory:
 1. [[BFS]]
 	1. when distances are same, bfs can be used to see if path exists or whats the shortest distance or even how many shortest or al paths exist.
@@ -84,9 +85,3 @@ LC:
 - Eulerian
 - [[332]]
 - [[1192]]
-
-Pending:
-- [[332]]
-- [[787]]**
-- [[947]]
-- https://www.codingninjas.com/studio/problems/articulation-point_840708?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf

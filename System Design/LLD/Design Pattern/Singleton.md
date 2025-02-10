@@ -2,7 +2,7 @@ https://www.youtube.com/watch?v=OuNOyFg942M&list=PL6W8uoQQ2c61X_9e6Net0WdYZidm7z
 https://www.youtube.com/watch?v=upfrQvOgC24&list=PL6W8uoQQ2c61X_9e6Net0WdYZidm7zooW&index=32
 ### Eager Initialization
 Eager initialization creates the Singleton instance at the time of class loading. This method ensures thread safety and simplicity but may lead to resource wastage if the instance is never used.
-
+ 
 ```java
 public class Singleton {
     private static final Singleton instance = new Singleton();
@@ -62,7 +62,7 @@ public class Singleton {
 ```java
 public class DoubleLockingSingleton {
     // Private static variable to hold the single instance of the class
-    private static volatile DoubleLockingSingleton instance;
+    private static DoubleLockingSingleton instance;
 
     // Private constructor to prevent instantiation from outside
     private DoubleLockingSingleton() {

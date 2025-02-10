@@ -3,47 +3,55 @@
 - Uses same concept as [[435]].
 #### Code:
 ```java
-import java.util.*;
 class Solution {
+    public int minMeetingRooms(List<Interval> intervals) {
+        int l = intervals.size();        
+        int[] x = new int[l];
+        int[] y = new int[l];
 
-    private boolean overlap(int[] a, int[] b){
-        return a[0]<b[1] && b[0]<a[1];
-    }
-    private int sol(int[][] meetings){
-        Arrays.sort(meetings, (int[] a, int[] b) -> {
-            if(a[1]!=b[1]){
-                return a[1]-b[1];
-            }else{
-                return a[0]-b[0];
-            }
-        });
-
-        int i,j;
-        i=0;
-        int[] tmp;
-        int ans,pt;
-        ans = 1;
-        while(i<meetings.length){
-            tmp = meetings[i];
-            j = i+1;
-            pt=1;
-            while(j<meetings.length && overlap(tmp, meetings[j])){
-                pt++;
-                j++;
-            }
-            i = j;
-            ans = Math.max(ans, pt);
+        for(int i=0;i<l;i++){
+            x[i] = intervals.get(i).start;
+            y[i] = intervals.get(i).end;
         }
 
-        return ans;
-    }
+        Arrays.sort(x);
+        Arrays.sort(y);
 
-    public static void main(String[] args) {
-        int[][] meetings = {{0, 12},{5, 10},{15, 20}};
-        //int[][] meetings = {{0, 7},{5, 10},{2, 20}};
-        //int[][] meetings = {{7,10},{2,4}};
-        Solution solution = new Solution();
-        System.out.println(solution.sol(meetings));
+        int a,b;
+        a = b = 0;
+
+        int cnt = 0;
+        int ans = 0;
+
+        while(a<l && b<l){
+            if(x[a]<y[b]){ // it will become if(x[a]<=y[b]) if {1,2} {2,5} were overlapping
+                cnt++;
+                a++;
+            }else if(x[a]>y[b]){
+                cnt--;
+                b++;
+            }else{
+                a++;
+                b++;
+            }
+            ans = Math.max(ans, cnt);
+        }
+
+        while(a<l){
+            cnt++;
+            a++;
+            ans = Math.max(ans, cnt);
+        }
+
+        while(b<l){
+            cnt--;
+            b++;
+            ans = Math.max(ans, cnt);
+        }
+
+
+        return ans;
+
     }
 }
 ```
